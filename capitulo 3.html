@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capitulo 3</title>
+</head>
+<body>
+    <!-- En HTML4, el elemento principal para estrucurar laas paginas web es la famosa "caja<div>." Con el elemento <div>, es posible crear zonas de visualizacion de forma rectangular. Cada una de esas zonas,
+    de esas cajas<div>, puede ser indetificada de manera exclusiva, mediante un codigo de identificacion, y de ese modo, podemos aplicarle un formato con CSS. Ese codigo de indetificacion unico se establece 
+    con el atributo id. -->
+    <!-- Ejemplo a continuación -->
+    <div id="bennerSuperior">
+        ...
+    </div>
+    <!-- Tambien podemos usar las clases, cuando este formato se repita en la pagina y no se trate, por lo tanto, de un formato unico. -->
+    <div class="comentarios">
+        ...
+    </div>
+    <!-- A  continuacion, una vez que haya terminado la estructura, podra aplicar el diseño con las hojas de estilo CSS, 
+        mediante los selectores de identificacion que correspondan al codigo de identificacion o a la clase en cuestion. -->
+        <!-- Ejemplo de CSS, el style que hay a continuacion lo puse yo en el libro codigo original no esta puesto. -->
+        <style>
+        #bannerSuperior {
+            ...
+        }
+        .comentarios {
+            ...
+        }
+        </style>
+        <!-- (La divitis)
+            Con HTML4 y CSS 2.1, la estructura de las paginas, cuando esta es relativamente compleja, puede requerir una gran cantidad de cajas<div>. Podemos llegar a crear paginas que contengan 
+            docenas y docenas de <div>. Si usted cae en ese exceso, habra contraido la enfermedad llamada "divitis", es decir, el uso excesivo de cajas <div>. -->
+        <!-- Comentario de "Alex"  NO USAR DIV MUCHOS MAXIMO UNOS 10 DEPENDIENDO SI SON MUY IMPORTANTES PUEDO USAR OTRAS VARIABLES PARA COMPLETAR EL CODIGO (IMPORTANTE) -->
+        <!-- EL ELEMENTO MAIN
+        Ultimo en llegar a los borradores del W3C, el elemento<main> permite representar el contenido principal de la pagina.
+        De esta forma, una pagina podra estar perfectamente estructurada con un elemento <main> para el contenido de la pagina, una encabezado<header>, contenidos con elementos<article>
+        y un pie de pagina <footer>. -->
+        <Main>
+            <header>                
+            </header>
+            <article>
+            </article>
+            <footer>
+            </footer>
+        </Main>
+        <!-- Restricciones para el uso del elemento <main>:
+            un solo elemento <main> por pagina,
+            no debe utulizarse dentro (elemento descendente) de los elementos <article>,<aside>,<footer>,<header> o <nav>,
+            deberia estar asociado con el role mmain(<main role="main">) para una mejor accesibilidad de los sitios web.
+            Observe que, con HTML5.2 podemos utilizar varios elementos<main> en la misma pagina. Es su resposabilidad diferenciarlos con selectores CSS. -->
+
+        <!-- Anidacion de los elementos <header> y <footer>
+            Con HTML 5.1, puede anidar los elementos<header> y <footer> dentro de otro elemento <header> si los dos primeros elementos estan incluidos en un mismo elemento. -->
+        <!-- He aqui un ejemplo de anidacion totalmente valido: -->
+        <article>
+            <header>
+                <h2>Cras Vestibulum Sem Fermentum</h2>
+                <aside>
+                    <header>
+                        <h3>Inceptos Magna Vehicula Malesuada</h3>
+                        <p> Mollis Risus Sollicitudin Inceptos...</p>
+                    </header>
+                    <p>Sit Mattis Aenean COmmodo...</p>
+                    <footer>
+                        <p>Parturient Pharetra Quam</p>
+                    </footer>
+                </aside>
+            </header>
+            <p>Adipiscing Ultricies Dapibus Mollis...</p>
+        </article>
+        <!-- , por ultimo, quiero aclarar que, aunque use HTML5 no tiene por que erradicar el uso de las cajas <div> Todabia podemos usarlas y siguen teniendo su utilidad! -->
+</body>
+</html>
