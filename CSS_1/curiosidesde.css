@@ -1,0 +1,54 @@
+aland/*Ejemplo de selector universal*/
+*{color: red;}
+/* El (*) Al principio de color es para que todo la pagina web contenga este color dependiendo del valor que le pongamos
+el selector se evita mayormente en uso de proyectos web, ya que es muy extraño encontrarlo. */
+
+/* Ejemplos a continuación de a como se usa en codigo css */
+h1{color:blue;}
+/* El h1 puede ser cualquier etiqueta de HTML desde (span) incluso hasta (input) y hasta (body) */
+
+/* Si queresmos poner algun efecto o color o cualquier otra cosa en un (ID) tenemos que usar (#) en el CSS */
+/* Ejemplo a continuación */
+#header{color: green;}
+
+/* Cuando usemos una (CLASS) tenemos que usar el atributo (.BOX) para referirnos a (CLASS) */
+/* Ejemplo a continuación */
+.box{color: yellow;}
+
+/* Selector para una clase de elemento por ejemploo si ponemos (p class=.....) tenemos que usar el siguiente codigo de CSS para que se aplique 
+en el elemento al que nos estamos refiriendo. */
+p.box{color: grey;}
+/* Una cosa importante todo los parrafos con la eliqueta class se pondran de este color, si queremos distinguirlos tendremos que ponerle un nombre
+clave para cada uno y si no pues nada. */
+/* A si se veria el codigo de (p+box) <p>1 - Parrafo sin clase box <p>
+                                      <p class="box">2 - Parrafo con clase box </p>
+                                      <p class="box">2 - Parrafo con clase box 
+                                                    <a href="#"> con hipervinculo </a>
+                                                    y <span> un span </span>
+                                      </p> */
+/*En este caso el parrafo segundo y tercero tendran el color gris ya que el primero no cuenta con (box) a si que solo se aplica a los 2 ultimos
+y la etiqueta (span) queda libre ya que no estamos marcando este elemento y se queda normal. */
+
+/* A continuación  selectores descendientes, es muy facil de enterder, los los hijos o nietos o sub nietos, etccc... */
+/* Ejemplo a continuación */
+ul li p span.box{color: blueviolet;}
+
+/* Ejemplo de selector hijo */
+li>a{color: orange;}
+/* Los hijos tendran el color naranja ya que vienen de (li), hay que tener mucho cuidado con este selector ya que puede producir alteraciones en el codigo, 
+el elemento li seria un hipervinculo, es un (un poco raro de enternder es mejor no usarlo)(BUSCAR MAS INFORMACION, VIDEOS) */
+
+/* Selector de hermano adyacente */
+/* El elemento se aplica en CSS al elemento que se encuentra a continuacion del hermano especifico, este selector se utiliza en ocaciones muy concretas,
+el resultado es muy limpio en las linea de codigo y con muchas posibilidades. */
+li+li{color: white;}
+/* Esto hace que si tenemos 10 elementos (li) a todos se aplicara el color blanco menos al primero, si ponemos mas li+li+li+li seguramente 3 de los 
+primeros no seran blancos y e el resto si, aun que este elemento es muy poco comun usarlo ya que solo hay momentos en los que ponemos color y lo usamos 
+debes en cuando. */
+
+
+
+/* https://www.mclibre.org/consultar/htmlcss/css/css-pseudoclases.html */
+/* Enlace de pseudo+una explicacion de como usar el uso correcto mas ejemplos, bastante entendible. */
+
+/* PSEUDO-CLASES */
