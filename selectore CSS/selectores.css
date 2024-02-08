@@ -1,0 +1,28 @@
+/* ORDEN PARA NO TENER CAOS CON LOS SELECTORES */
+
+/* Si tenemos buenos habitos para usar selectores, no tendremos ningun problema, pero a la hora de usar alguno tenemos que tener en cuenta si de verdad necesitamos ese selector. */
+/* A CONTINUACION SELECTORES QUE PUEDEN SER UTILES. */
+
+/* Este selector no ayuda a quitar el subrallado de los vinculos (a) */
+a{text-decoration: none;}
+ 
+/* PARA TENER UNA BUENA ESTRUCTURA EN NUESTRO CODIGO VAMOS A PONER ESTRUCTURAS */
+/* ###HEADER### */
+/* ###MAIN### */
+/* ###FOOTER### */
+
+/* A CONTINUACIÓN PONGO ALGUNOS IDENTIFICADORES */
+/* ###HEADER### */
+#header h1{  }
+/* ###HEADER### */
+#header ul.nav li{  }
+/* ###HEADER### */
+#header ul li a.twitter{  }
+/* Esto se pone dependiendo de mi codigo para que tenga un orden mas legible. */
+
+/* AGRUPACION DE SELECTORES */
+/* Los selectores se pueden agrupar si tienes propiedades en comun. */
+/* Ejemplo si la cabezera fuera de nivel 1, el vinculo de la clase facebook de un parrafo y la division con la clase de publicidad deben tener el mismo color rojo, si todo fuera asi el 
+codigo seria en siguiente en CSS. */
+#header h1, #header p a.facebook, #header div.publicidad{color: red;}
+/* El uso de las comillas permite la agrupacion de selectores, para aplicar la misma propiedad a todos a la vez, gracias a esto se optimiza nuestro CSS,(#####IMPORTANTE REPASAR#####). */
