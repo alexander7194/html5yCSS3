@@ -1,0 +1,23 @@
+/* Esto sirve para ponerle una fuenta a la letra y la ruta, tambien puedes descargar de google y poner un codigo.
+El size es el tamaño de la letra */
+body{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+}
+
+/* ALINEACIÓN  DE TEXTO (IZQUIERDA, DERECHA, CENTRADO O JUSTIFICADO, COLOR DEL CONTENIDO, INTERLINEADOS O INCLUSO EL SANGRADO DE LOSCONTENIDOS,
+DEJANDO LA POSIBILIDAD DE GENERAR UN MARGEN PRONUNCIADO. */
+
+/* ALINEACION DEL TEXTO */
+#main p.one{text-align: justify;}
+
+/* COLOR DEL TEXTO, GRISACEO */
+#main p.two{color: #ccc;}
+
+/* INTERLINEADOS */
+#main p.three{line-height: 40px;}
+
+/* SANGRADO */
+#main p.four{text-indent: 20px;}
+
+/* ORDEN DE LA CAJA (MARGIN, BORDER. PADDING, CONTENT */
