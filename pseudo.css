@@ -1,0 +1,58 @@
+/* https://www.mclibre.org/consultar/htmlcss/css/css-pseudoclases.html */
+/* Enlace de pseudo+una explicacion de como usar el uso correcto mas ejemplos, bastante entendible. */
+
+/* PSEUDO-CLASES */
+/* El Pseudo clase son elementos que nos ayudaran a pulir y mejorar nuestro CSS, existen 4 tipos de clases y se usan dependiendo del contenido que tengamos. */
+
+/* El primero es (PSEUDO-CLASES DE VÍNCULOS) esto permite aplicar estilos a los vinculos de la web, como por ejemplo si este ha sido visitado. */
+/* El segundo es (PSEUDO-CLASES DINÁMICAS) estos permiten aplicar estilos a los elementos donde el cursor esta encima o cuando se pasa por encima o cuando se hace click. */
+/* El tercero es (PSEUDO-CLASES ESTRUCTURALES) esto permiten dar estilos a elementos mediante la posición del mismo, (ESTAPEUDO-CLASE) se ah introducido a partir de la nueva revision de (CSS3) */
+/* El cuarto es (PSEUDO-CLASES DE LENGUAJE) permite aplicar una funcion dependiendo del idioma. */
+
+/* A CONTINUACION LOS (PSEUDO MAS FAMOSOS) */
+/* ENLACES SE APLICA CUANDO EL HIPERVINCULO AUN NO HA SIDO VISITADO O NO APARECE EN EL HISTORIAL DEL NAVEGADOR. */
+/* ENLACE */
+/* https://www.dariobf.com/css-dando-estilo-a-los-enlaces-links-o-hipervinculos/ */
+/* Enlace donde te explican que es el (hypervinculo) */
+a:link{color: red;}
+
+/* ENLACE CUANDO YA HA SIDO VISITADO EL HYPERVINCULO O CUANDO YA APARECE EN EL HISTORIAL DE NAVEGACIÓN. */
+/* Ejemplo a continuación */
+a:visited{color:red;}
+
+/* ENLACE DE OBJETIVO SE APLICA CUANDO SE LE HACE OBJETIVO A UN VINCULO, CON LA TECLA TABULADOR PODEMOS HACER QUE OBJETIVOS A VINCULOS. */
+/* Ejemplo a continuación */
+a:target{color: red;}
+
+/* ENLACE DE ELEMENTO ACTIVO, SE APLICA CUANDO SE PULSA ENCIMA CON EL CURSOR, UN FAMOSO EJEMPLO SERIA UN BOTON CUANDO LO PULSAMOS SE UNDE Y CUANDO YA NO LO PULSAMOS VUELVE A SU ESTADO 
+ORIGINAL. */
+/* Ejemplo a continuación */
+a:active{color: red;}
+
+/* SOBRE UN ELEMENTO, SE APLICA EL EFECTO CUANDO EL CURSOR ESTA ENCIMA DEL ELEMENTO. */
+/* Ejemplo a continuación */
+a:hover{color: red;}
+
+/* FOCO A UN ELEMENTO, CAPTURA EL FOCO DE UN ELEMENTO EN EL DOCUMENTO, ES MUY TIPICO EL USO EN EL ELEMENTO (INPUT) YA QUE A LA HORA DE ESCRIBIR VA CAMBIANDO DE ESTADO. */
+/* Ejemplo a continuación */
+input:focus{color: red;}
+
+/* PSEUDO DE ELEMENTOS ESTO YA ES OTRA SECCIÓN APARTE. */
+/* SOLO HAY DOS TIPOS DE ELEMENTOS DE PSEUDO */
+
+/* EL PRIMERO PSEUDO SERIA MUY FACIL DE CONTROLAR, YA QUE ES BASTANTE BASICO, ES DE TIPO LINEA Y PRIMERA LETRA, A CONTINUACION LO EJEMPLOS. */
+p::first-line{color: blue;}
+/* Esta el para que toda la primera linea del parrafo sea de color (AZUL) */
+p::first-letter{color: blue;}
+/* Esto hace que la primera letra que la linea, sea de color (AZUL) */
+
+/* EL SIGUIENTE PSEUDO ES PARA PONER UN ELEMENTO ANTES O DESPUES. */
+/* (ANTES) */
+p::before{content: "<<";color: blue;}
+/* Lo que esta entre comillas es lo que se va poner al principio del parrafo las comillas (<<) y si ponemos after al final podemos usar (>>). Siempre hay que poner (content) */
+
+/* (DESPUES) */
+p::after{content: ">>";color: red;}
+/* Estas comillas en color rojo estaran al final del parrafo y al principio las azules tanto como imagenes o cualquier otro tipo de cosas lo que hay que hacer es especificar bien las cosas. */
+
+/* Este selector de elemeto es muy poco comun usarlo, se puede usar pero en casos excepcionales, ya que pueden crear resultados poco optimos. */
