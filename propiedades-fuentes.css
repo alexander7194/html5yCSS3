@@ -1,0 +1,16 @@
+/* font size: Tamaño de la fuente, este valor define el tamaño de las letras donde aplicamos el efecto, mayormente se suele definir en el body. */
+body{font-size: 12px;}
+#main p{font-size: 1.2em;}
+
+/* font style: Define la fuente por defecto, una fuente en cursiva o una fuente en oblicua. */
+#main p.normal{font-style: normal;} /* por defecto */
+#main p.italic{font-style: italic;} /* cursiva */
+#main p.oblique{font-style: oblique;} /* Oblicua */
+
+/* font weight: Permite implementar el resaltado de la fuente y sus valores pueden variar entre normal(que es por defecto), bold(negrita), bolder, lighter y un valor entre 100 a 900. 
+Un valor normal es 400 y un valor de tipo bold suele ser de 700. No todas las fuentes cuentan con cambios en cada uno de los valores. */
+#main p.bold{font-weight: bold;} /* negrita */
+#main p.b400{font-weight: 400;} /* normal */
+#main p.b700{font-weight: 700;} /* probablemente negrita */
+
+/* font variant: permite elegir entre normal y small-caps. Su uso es minoritario. */
