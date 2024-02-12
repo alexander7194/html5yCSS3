@@ -1,0 +1,7 @@
+#main{width: 600px; margin: 0auto;}
+h1{padding-top: 20px; font-size: 22px; font-weight: bold;}
+.subrayado{text-decoration: underline;}
+.tachado{text-decoration: line-through;}
+.superior{text-decoration: overline;}
+/* Eliminamos el subrayado a todos los vinculos */
+a{text-decoration: none;}
