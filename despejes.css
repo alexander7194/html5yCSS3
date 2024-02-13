@@ -1,0 +1,13 @@
+.item1,.item2,.item3,.item4,.item5,.item6{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid #000;
+    float: left;
+}
+.item1{background-color: yellow;}
+.item2{background-color: red;}
+.item3{background-color: blue;}
+.item4{background-color: orange; clear: both;}   
+.item5{background-color: green;}
+.item6{background-color: purple;}
