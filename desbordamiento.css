@@ -1,0 +1,15 @@
+#wrapper{
+    padding: 25px;
+    background-color: #ddd;
+    overflow: auto;
+}
+.item1,.item2,.item3{
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+    border: 1px solid #000;
+    float: left;
+}
+.item1{background-color: yellow;}
+.item2{background-color: red;}
+.item3{background-color: blue;}
