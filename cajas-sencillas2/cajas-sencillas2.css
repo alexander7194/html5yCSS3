@@ -1,0 +1,39 @@
+.item1,.item3{
+    background-color: #F8FF74;
+    width: 190px;
+    padding: 4px 10px 13px 10px;
+    border: 1px dotted #000;
+    margin: 3px;
+    float: left;
+}
+h3 {
+    text-align: center;
+}
+h3 a{
+    color:#4B1993;
+    font-family: Geneva, sans-serif;
+    font-size: 20px;
+}
+p{
+    text-indent: 7%;
+    color: #0083C7;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 18px;
+}
+a{  
+    color: #FF5F39;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+.item2{ 
+    background-color: #F8FF74;
+    width: 190px;
+    padding: 4px 10px 13px 10px;
+    border: 1px dotted #000;
+    margin: 3px;
+    float: left;
+}
+.tachado{
+    text-decoration: line-through;
+    
+}
