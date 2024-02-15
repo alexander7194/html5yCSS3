@@ -1,0 +1,36 @@
+.container img{
+    position: absolute;
+    float: inline-start; 
+}
+.container h1{
+    background-color: rgb(255, 255, 255);
+    opacity: 88%;
+    width: 448px;
+    padding: 10px 4px 6px;
+    margin: 6px;
+    border: none;
+    position: absolute;
+    font-size: 75px;
+    font-family: Verdana;
+    font-weight: bold;
+    text-indent: -1%;
+}
+.enlaces,.ol,.li{
+    background-color: rgb(255, 255, 255);
+    background-position: left;
+    opacity: 88%;
+    width: 448px;
+    padding: 300px 1px 5px 5px;
+    margin: 7px;
+    border: none; 
+    list-style-position: outside;
+    font-size: 9px;
+} 
+a{
+    color: #4a5f1a;
+    font-size: 10px;
+    font-family: Arial;
+    font-weight: bold;
+    text-indent: -1%; 
+    text-indent: 4%;
+}
