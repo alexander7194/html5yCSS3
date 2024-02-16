@@ -1,0 +1,37 @@
+.fondo img{
+    position: fixed;
+    float: inline-start; 
+}
+.titulo{
+    background-color: white;
+    opacity: 88%;
+    width: 448px;
+    padding: 10px 4px 6px 4px;
+    margin: 6px;
+    position: fixed;
+}
+h1{
+    color: black;
+    font-size: 75px;
+    font-family: Verdana;
+    font-weight: bold;
+    padding: 5px 3px 4px 0px;
+}
+.lista{
+    background-color: white;
+    opacity: 88%;
+    width: 448px;
+    padding: 0px 2px 5px 5px;
+    margin-top: 145px;
+    margin-left: 5px ;
+    float: inline-start;
+    font-family: Arial;
+    font-size: 14px;
+}
+li{
+    margin-left: 10px;
+}
+a{
+    color: #4a5f1a;
+    line-height: 28px;
+}
