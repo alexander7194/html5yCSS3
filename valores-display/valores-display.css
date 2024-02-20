@@ -1,0 +1,31 @@
+body{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+nav[role="navigation"]{
+    margin: 10px;
+    text-align: center;
+}
+.nav li{
+    display: table-cell;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    font-size: 0.8em;
+}
+.top{
+    vertical-align: top;
+}
+.middle{
+    vertical-align: middle;
+}
+.bottom{
+    vertical-align: bottom;
+}
+/* Aqui podemos ver un cuadrado, con numeros uno en top otro en medio center 
+otro tambien abajo a la derecha, nos puede ayudar para ordenar de una forma correcta 
+algunas cosas o especificar palabras de sitio etc, para hacer cambios tocar(top, middle bottom) */
