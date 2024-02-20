@@ -1,0 +1,90 @@
+/* body{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+nav[role="navigation"]{
+    overflow: auto;
+    margin: 10px;
+}
+.nav li{
+    float:left;
+    padding: 20px;
+    background-color: #333;
+    font-size: 0.8em;
+}
+.nav a{
+    color: #fff;
+} */
+/* Hasta aqui el primer ejemplo a continuacion vieje el segundo en este vemos una nav cuadrada */
+
+/* body{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+nav[role="navigation"]{
+    overflow: auto;
+    margin: 10px;
+}
+.nav li{
+    float:left;
+}
+.nav a{
+    color: #fff;
+    padding: 20px;
+    background-color: #333;
+    font-size: 0.8em    ;
+} */
+/* Hasta aqui el segundo nav, donde el css esta mas estirado y no esta en caja si no que esta en linea o es lo que se puede ver. */
+
+/* body{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+nav[role="navigation"]{
+    overflow: auto;
+    margin: 10px;
+}
+.nav li{
+    float:left;
+}
+.nav a{
+    display: block;
+    color: #fff;
+    padding: 20px;
+    background-color: #333;
+    font-size: 0.8em    ;
+} */
+/* Hasta aqui otro ejemplo, podemos ver una caja cuadrada que es bloque y vemos como se usa el display(block) */
+
+/* body{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+nav[role="navigation"]{
+    overflow: auto;
+    margin: 10px;
+    text-align: center;
+}
+.nav li{
+    display: inline-block;
+}
+.nav a{
+    display: block;
+    color: #fff;
+    padding: 20px;
+    background-color: #333;
+    font-size: 0.8em    ;
+} */
+/* En este vemos que los cuadrados de nav, se han separado en cuadrados pequeños, se puede utilizar cuando vayamos hacer unas filas o algo por el estilo. */
