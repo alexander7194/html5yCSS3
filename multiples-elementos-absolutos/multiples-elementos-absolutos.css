@@ -1,0 +1,39 @@
+body{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    margin: 20px;
+    position: relative;
+}
+.one{
+    position: absolute;
+    background-color:yellow;
+    padding: 30px;
+    border-radius: 30px;
+    z-index: 3;
+    top: 60px;
+    left: 60px;
+}
+.two{
+    position: absolute;
+    background-color: orange;
+    padding: 60px;
+    border-radius: 60px;
+    z-index: 2;
+    top: 30px;
+    left: 30px;
+}
+.three{
+    position: absolute;
+    background-color:red;
+    padding: 90px;
+    border-radius: 90px;
+    z-index: 1;
+}
+/* He tenido que hacer ajustes manuales ya que no estaba el primero circulo centrado
+que es el mas pequeño ni el segundo circulo, el z-index sirve para ver quien esta primero,
+me explico quien esta el primera fila y atras y otro mas atras como son circulos de pequeño 
+a grande lo entenderas ALEX' el borde es para aumentar el borde de la bolita o disminuir
+siempre necesitamos top y left para centrar las bolitas una vez puesto si tenemos algun error
+centrarlo manualmente en google que es mas facil. */
