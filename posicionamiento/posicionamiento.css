@@ -1,0 +1,40 @@
+body{
+    font-size: 1em;     
+    font-family: Arial, sans-serif;
+}
+.box{
+    display: table; 
+    border-collapse: separate;
+    border-spacing: 50px;
+}
+.box article{
+    border: 1px solid red;
+    width: 300px;
+    display: table-cell;
+    position: relative;
+}
+.box h1{
+    background-color: red; 
+    padding: 5px;
+    color: #fff;
+    font-size: 1.1em;
+    font-style: italic;
+}
+.box p{
+    line-height: 80px;
+    font-size: 5em;
+    padding: 27px;
+}
+.box div{
+    width: 50px;
+    padding: 15px 0;
+    border-radius: 25px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
