@@ -1,0 +1,19 @@
+.nav{
+    background-color: #ccc;
+    padding: 2px;
+    list-style: none;
+    overflow: auto;
+}
+.nav li{
+    float: left;
+    vertical-align: middle;
+}
+.nav a{
+    display: block;
+    padding: 20px;
+}
+.nav a:hover{
+    background-color: yellow;
+}
+/* Crear una nav, despues un nav li, despues un nav a, por ultimo crear un nav con a y hover, HOVER es un pseudo que hace 
+cuando nos desplacemos con el mouse por algun codigo que hayamos escrito este sobresalte de color o cambie.*/
