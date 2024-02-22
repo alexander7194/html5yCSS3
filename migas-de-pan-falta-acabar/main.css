@@ -1,0 +1,41 @@
+#wrapper{
+    max-width: 1050px;
+}
+.titulo{
+margin-bottom: 20px;
+width: 767px;
+}
+p{
+    font-family: arial;
+    font-size: 15px;
+    padding: 0px 0px 10px 0px;
+}
+h1{
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 19px;
+    padding: 0px 0px 0px 22px;
+}
+.fondo{
+    height: 512px;
+    width: 768px;
+    background-image: url(img/lion.jpg);
+    background-repeat: no-repeat;
+    background-size: 48rem;
+}
+.aside{
+    background-color: orange;
+    width: 282px;
+    height: 512px;
+    float: inline-end;
+    margin-top: -512px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+}
+p{
+    text-align: center 100px;
+}
