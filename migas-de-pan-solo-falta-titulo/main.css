@@ -1,0 +1,77 @@
+#wrapper{
+    max-width: 1050px;
+    line-height: 0;
+}
+.titulo{
+    margin-bottom: -10px;
+    width: 767px;
+}
+p{
+    font-family: arial;
+    font-size: 12px;
+    padding: 0px 0px 20px 0px;
+}
+.sitio1 h1{
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 19px;
+    padding: 0px 0px 24px 30px;
+}
+.sitio2 h1{
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 19px;
+   
+    padding: 0px 0px 24px 90px;
+    
+}
+.sitio2 a{
+    font-size: 17px;
+    color: purple;
+
+    padding: 0px 0px 0px 112px;
+}
+/* .titulo a{
+    font-size: 17px;
+    color: purple;
+    padding: 0px 0px 0px 112px;
+} */
+.fondo{
+    height: 512px;
+    width: 768px;
+    background-image: url(img/lion.jpg);
+    background-repeat: no-repeat;
+    background-size: 48rem;
+}
+
+.content{
+    background-color: orange;
+    width: 222px;
+    height: 512px;
+    padding-top: 0px;
+    margin-top: -512px;
+    margin-left: 768px ;
+}
+.aside{
+    color: white;
+    padding: 40px 11px 0px 22px ;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+p{
+    font-size: 13px;
+    line-height: 2em;
+    text-align: left;
+}
+.next a{
+    padding: 0px 0px 0px 112px;
+    text-decoration: none;
+    color: white;
+    font-family: verdana;
+    font-size: 13px;
+    font-weight: bold;
+}
