@@ -1,0 +1,64 @@
+#wrapper{
+    max-width: 548px;
+}
+body{
+    background-image: url(formulario.png);
+    background-repeat: no-repeat ;
+    width: 548px;
+
+}
+.div,.encabezado{
+    margin: 5px;
+    padding: 4px 4px 4px 3px;
+    border: 0px;
+    width: 542px;
+}
+#titulo{
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 209px;
+    padding: 17px 324px 13px 9px;
+}
+#subtitulo{
+    font-family: sans-serif;
+    font-size: 12px;
+    width: 242px;
+    padding: 7px 285px 5px 9px;
+    letter-spacing: 0px;
+    font-stretch: expanded;
+}
+form{
+    margin: 5px;
+    padding: 4px 4px 4px 3px;
+    border: 0px;
+    width: 542px;
+}
+.label,.name{
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 209px;
+    padding: 26px 0px 17px 17px;
+}
+.div,.item1{
+    font-family: verdana;
+    font-size: 9.5px;
+    margin: 4px;
+    width: 308px;
+    padding: 3px 126px 0px 107px;
+}
+input#name{
+    width: 212px;
+    height: 11px;
+}
+.div,.item2{
+    font-family: sans-serif;
+    font-size: 12px;
+    width: 242px;
+    padding: 7px 285px 5px 9px;
+    letter-spacing: 0px;
+    font-stretch: expanded;
+}
+input#e-mail{
+    width: 212px;
+    height: 11px;
+}
