@@ -1,0 +1,162 @@
+#wrapper{
+    max-width: 548px;
+    background-color: #F5FAF9;
+}
+body{
+    width: 548px;
+    border: #E0F0E8 4px solid;
+}
+.span,.encabezado{
+    margin: 5px;
+    padding: 4px 4px 4px 3px;
+    border: 0px;
+    width: 542px;
+}
+#titulo{
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 209px;
+    padding: 17px 324px 13px 9px;
+    color: #55917A;
+}
+#subtitulo{
+    font-family: sans-serif;
+    font-size: 12px;
+    width: 242px;
+    padding: 7px 285px 5px 9px;
+    letter-spacing: 0px;
+    font-stretch: expanded;
+    border: #617E78 1px dashed;
+}
+/* formulario, central */
+.label,.name{
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 209px;
+    padding: 26px 0px 417px 17px;
+}
+.input#name{
+    font-family: verdana;
+    font-size: 9.5px;
+    margin: 4px;
+    width: 308px;
+    padding: 3px 126px 0px 107px;
+}
+.label,.e-mail{
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 209px;
+    padding: 26px 0px 417px 17px;
+}
+.input#e-mail{
+    font-family: verdana;
+    font-size: 9.5px;
+    margin: 4px;
+    width: 308px;
+    padding: 3px 126px 0px 107px;
+}
+.label,.alternate{
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 209px;
+    padding: 26px 0px 417px 17px;
+}
+.input#alternate{
+    font-family: verdana;
+    font-size: 9.5px;
+    margin: 4px;
+    width: 308px;
+    padding: 3px 126px 0px 107px;
+}
+/* recuadro de 3 lineas */
+.label,.phone{
+    font-family: verdana;
+    font-size: 9.5px;
+    margin: 4px;
+    width: 308px;
+    padding: 3px 126px 0px 107px;
+}
+.span,.linea3{
+    font-family: verdana;
+    font-size: 9.5px;
+    margin: 4px;
+    width: 308px;
+    padding: 3px 126px 0px 107px;
+}
+.input,.textbox1{
+    padding: 1px;
+}
+.input,.textbox2{
+    padding: 1px;
+}
+.input,.textbox3{
+    padding: 1px;
+}
+.label,.movile{
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 209px;
+    padding: 26px 0px 417px 17px;
+}
+.input,.mobile{
+    font-family: verdana;
+    font-size: 9.5px;
+    margin: 4px;
+    width: 308px;
+    padding: 3px 126px 0px 107px;   
+}
+.label,.postal{
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 209px;
+    padding: 26px 0px 417px 17px;
+}
+textarea#postal{
+    padding: 10px;
+}
+.div,.delta7{
+    padding: 10px;
+}
+.label,.select{
+    padding: 10px;
+}
+select#country{
+    padding: 10px;
+}
+.label,.password{
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 209px;
+    padding: 26px 0px 417px 17px;
+}
+.input,.password{
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 209px;
+    padding: 26px 0px 417px 17px;
+}
+.label,.repeat2{
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 209px;
+    padding: 26px 0px 417px 17px;
+}
+.input,.repeat2{
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 209px;
+    padding: 26px 0px 417px 17px;
+}
+/* botones, condiciones */
+.input,.checkbox{
+    padding: 10px;
+}
+.input,.button{
+    padding: 10px;
+}
+.input,.reset{
+    padding: 10px;
+}
+.div,.condiciones{
+    text-align: center;
+}

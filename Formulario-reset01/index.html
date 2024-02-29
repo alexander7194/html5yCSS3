@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="reset.css" />
+    <link type="text/css" rel="stylesheet" href="main.css" />
+    <title>Formulario web</title>
+</head> 
+<body>
+    <div id="wrapper">
+            <!-- Encabezado titulo y subtitulo con css -->
+            <span class="encabezado">
+                <h1 id="titulo">Register - Create Account</h1>
+                <p id="subtitulo">Field marked with * are compulsory fields</p>
+            </span>
+            <!-- Inicio del formulario -->
+            <form action="formulario.php" method="post">
+                <span class="delta1">
+                    <label for="name">* Your Name</label>
+                    <input type="text" name="name" id="name">
+                </span>
+                <br>
+                <span class="delta2">
+                    <label for="e-mail">* E-Mail ID</label>
+                    <input type="text" name="e-mail" id="e-mail">
+                </span>
+                <br>
+                <span class="deslta3">
+                    <label for="alternate">Alternate E-Mail ID</label>
+                    <input type="text" name="alternate" id="alternate">
+                </span>
+                <br>
+                <!-- recuadro de 3 juntos -->
+                <div class="delta4">
+                    <label for="phone">Your Phone</label>
+                            <br>
+                        <span class="linea3">Country Code - City Code - Phone Number
+                            <br>
+                            <input type="text" class="textbox1" placeholder="">
+                            <input type="text" class="textbox2" placeholder="">
+                            <input type="text" class="textbox3" placeholder="">
+                        </span>
+                </div>
+                <br>
+                <span class="delta 5">
+                    <label for="mobile">Mobile Phone</label>
+                    <input type="text" name="mobile" id="mobile">
+                </span>
+                <br>
+                <span class="delta6">
+                    <label for="postal">*Your Postal Address</label>
+                    <textarea name="texto" id="postal" cols="30" rows="4"></textarea>
+                </span>
+                <br>
+                <div class="delta7">
+                    <label for="select">*Country</label>
+                    <select name="country" id="country">
+                        <option value="0">--------------- Select One ---------------</option>
+                        <option value="1">Belgium</option>
+                        <option value="2">Canada</option>
+                        <option value="3">Egypt</option>
+                        <option value="4">France</option>
+                        <option value="5">Ireland</option>
+                    </select>
+                </div>
+                <br>
+                <span class="delta8">
+                    <label for="password">*Password</label>
+                    <input type="text" name="password" id="password">
+                </span>
+                <br>
+                <span class="delta9">
+                    <label for="repeat2">*Re-Enter Password</label>
+                    <input type="text" name="repeat2" id="repeat2">
+                </span>
+                <br>
+                <!-- Boton para enviar el formulario y resetear -->
+                <div class="condiciones">
+                    <input type="checkbox" name="condiciones" checked="checked">
+                    I accept the Terms of Use <br>
+                    <input type="button" value="Continue>>">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
+    </div>    
+</body>
