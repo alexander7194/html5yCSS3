@@ -1,0 +1,214 @@
+#wrapper{
+    max-width: 548px;
+    background-color: #F5FAF9;
+}
+body{
+    width: 548px;
+    height: 480px;
+    border: #E0F0E8 4px solid;
+    background-image: url(formulario.png);
+    background-repeat: no-repeat ;
+    opacity: 80%;
+}
+.span,.encabezado{
+    margin: 5px;
+    padding: 4px 4px 4px 3px;
+    border: 0px;
+    width: 542px;
+}
+#titulo{
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 209px;
+    padding: 22px 323px 13px 13px;
+    color: #55917A;
+}
+#subtitulo{
+    font-family: sans-serif;
+    font-size: 13px;
+    width: 242px;
+    padding: 5px 285px 5px 5px;
+    letter-spacing: 0px;
+    font-stretch: expanded;
+    border: #617E78 1px dashed;
+    background-color: #E0F0E8;
+    margin-bottom: 19px;
+    margin-left: 8px;
+}
+/* formulario, central */
+.label,.name{
+    font-family: Verdana;
+    font-size: 11px;
+    margin-left: 8px;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+    padding: 5px 31px 5px 74px;
+    background-color: #E0F0E8;
+}
+input#name{
+    font-family: verdana;
+    font-size: 9.5px;
+    width: 224px;
+    padding: 0px 0px 4px 0px;
+    margin-bottom: 8px;
+    margin-left: 3px;
+}
+.label,.e-mail{
+    font-family: Verdana;
+    font-size: 11px;
+    margin-left: 8px;
+    width: 209px;
+    padding: 5px 31px 5px 85px;
+    background-color: #E0F0E8;
+}
+input#e-mail{
+    font-family: verdana;
+    font-size: 9.5px;
+    width: 312px;
+    padding: 0px 0px 4px 0px;
+    margin-bottom: 7px;
+    margin-left: 0px;
+}
+span.delta3{
+    margin: 10px;
+}
+.label,.alternate{
+    font-family: Verdana;
+    font-size: 11px;
+    margin-left: 8px;
+    width: 209px;
+    padding: 5px 31px 5px 42px;
+    background-color: #E0F0E8;
+}
+input#alternate{
+    font-family: verdana;
+    font-size: 9.5px;
+    width: 312px;
+    padding: 0px 0px 4px 0px;
+    margin-bottom: 7px;
+    margin-left: 0px;
+}
+/* recuadro de 3 lineas */
+div.delta4{
+    padding: 10px;
+}
+label.phone{
+    font-family: Verdana;
+    font-size: 11px;
+    margin-left: -2px;
+    width: 209px;
+    padding: 8px 31px 8px 85px;
+    background-color: #E0F0E8;
+}
+span.linea3{
+    font-family: verdana;
+    font-size: 9.5px;
+    margin: 4px;
+    width: 308px;
+    padding: 0px 0px 0px 0px;
+    margin-left: -1px;
+}
+span.texto3{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 77px;
+}
+.textbox1{
+    font-family: verdana;
+    font-size: 9.5px;
+    width: 152px;
+    padding: 0px 0px 4px 0px;
+    margin-bottom: 8px;
+    margin-left: 11px;
+}
+.textbox2{
+    font-family: verdana;
+    font-size: 9.5px;
+    width: 36px;
+    padding: 0px 0px 4px 0px;
+    margin-bottom: 8px;
+    margin-left: 11px;
+}
+.textbox3{
+    font-family: verdana;
+    font-size: 9.5px;
+    width: 48px;
+    padding: 0px 0px 4px 0px;
+    margin-bottom: 8px;
+    margin-left: 3px;
+}
+/* .label,.movile{
+    font-family: Verdana;
+    font-size: 11px;
+    width: 209px;
+    padding: 7px 30px 7px 30px;
+    background-color: #E0F0E8;
+} */
+.input,.mobile{
+    font-family: verdana;
+    font-size: 9.5px;
+    margin: 4px;
+    width: 308px;
+    padding: 7px 30px 7px 30px;
+    background-color: #E0F0E8;
+}
+.label,.postal{
+    font-family: Verdana;
+    font-size: 11px;
+    width: 209px;
+    padding: 7px 30px 7px 30px;
+    background-color: #E0F0E8;
+}
+textarea#postal{
+    padding: 10px;
+}
+.div,.delta7{
+    padding: 10px;
+}
+.label,.select{
+    padding: 10px;
+}
+.label,.country{
+    font-size: 11px;
+    padding: 7px 30px 7px 30px;
+    background-color: #E0F0E8;
+}
+/* .label,.password{
+    font-family: Verdana;
+    font-size: 11px;
+    width: 209px;
+    padding: 0px 0px 0px 0px;
+} */
+.input,.password{
+    font-family: Verdana;
+    font-size: 11px;
+    width: 209px;
+    padding: 7px 30px 7px 30px;
+    background-color: #E0F0E8;
+}
+.label,.repeat2{
+    font-family: Verdana;
+    font-size: 11px;
+    width: 209px;
+    padding: 7px 30px 7px 30px;
+    background-color: #E0F0E8;
+}
+.input,.repeat2{
+    font-family: Verdana;
+    font-size: 11px;
+    width: 209px;
+    padding: 0px 0px 0px 0px;
+}
+/* botones, condiciones */
+.input,.checkbox{
+    padding: 10px;
+}
+.input,.button{
+    padding: 10px;
+}
+.input,.reset{
+    padding: 10px;
+}
+.div,.condiciones{
+    text-align: center;
+}
