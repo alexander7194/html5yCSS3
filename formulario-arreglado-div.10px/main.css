@@ -1,0 +1,106 @@
+#wrapper{
+    max-width: 548px;
+    background-color: #F5FAF9;
+}
+body{
+    width: 546px;
+    height: 480px;
+    border: #E0F0E8 5px solid;
+    background-image: url(formulario.png);
+    background-repeat: no-repeat;
+    opacity: 80%;
+}
+div.encabezado{
+    margin: 5px;
+    padding: 4px 4px 4px 3px;
+    border: 0px;
+    width: 542px;
+}
+#titulo{
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 207px;
+    padding: 12px 4px 12px 4px;
+    color: #55917A;
+}
+#subtitulo{
+    font-family: sans-serif;
+    font-size: 13px;
+    width: 245px;
+    padding: 6px 282px 6px 3px;
+    letter-spacing: -1px;
+    font-stretch: expanded;
+    border: #617E78 1px dashed;
+    background-color: #E0F0E8;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 1px;
+}
+div.delta1,
+div.delta2,
+div.delta3{
+    display: flex;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-top: -12px;
+    margin-right: 0px;
+    padding: 0px 0px 0px 0px;
+    width: 467px;
+    align-items: baseline;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.class.name{
+    text-align: center;
+}
+label.name{
+    font-family: Verdana;
+    font-size: 11px;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 31px 5px 74px;
+    background-color: #E0F0E8;
+}
+label.e-mail{
+    font-family: Verdana;
+    font-size: 11px;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 31px 5px 74px;
+    background-color: #E0F0E8;
+}
+label.alternate{
+    font-family: Verdana;
+    font-size: 11px;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 31px 5px 74px;
+    background-color: #E0F0E8;
+}
+input#name{
+    font-family: verdana;
+    font-size: 9.5px;
+    width: 224px;
+    padding: 0px 0px 4px 0px;
+     margin-bottom: 6px;
+    margin-left: 6px;
+    margin-top: -4px;
+    margin-right: 6px;
+}
+input#e-mail,
+input#alternate{
+    font-family: verdana;
+    font-size: 9.5px;
+    width: 224px;
+    padding: 0px 0px 4px 0px;
+    margin-bottom: 6px;
+    margin-left: 6px;
+    margin-top: -4px;
+    margin-right: 6px;
+}
