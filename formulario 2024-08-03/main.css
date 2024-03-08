@@ -1,0 +1,171 @@
+#wrapper{
+    max-width: 548px;
+    background-color: #F5FAF9;
+    position: absolute;
+}
+body{
+    width: 546px;
+    height: 480px;
+    border: #E0F0E8 5px solid;
+    background-image: url(formulario.png);
+    background-repeat: no-repeat;
+    opacity: 80%;
+}
+div.encabezado{
+    margin: 5px;
+    padding: 4px 4px 4px 3px;
+    border: 0px;
+    width: 542px;
+}
+#titulo{
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 207px;
+    padding: 12px 4px 12px 4px;
+    color: #55917A;
+}
+#subtitulo{
+    font-family: sans-serif;
+    font-size: 13px;
+    width: 245px;
+    padding: 6px 282px 6px 3px;
+    letter-spacing: -1px;
+    font-stretch: expanded;
+    border: #617E78 1px dashed;
+    background-color: #E0F0E8;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    margin-left: 1px;
+}
+div.delta1,
+div.delta2,
+div.delta3{
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-top: -12px;
+    margin-right: 0px;
+    padding: 0px 0px 0px 0px;
+    width: 547px;
+}
+.class.name{
+    text-align: center;
+}
+label.name{
+    font-family: Verdana;
+    font-size: 11px;
+    margin-left: 10px;
+    margin-right: 1px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    padding: 6px 28px 6px 74px;
+    background-color: #E0F0E8;
+    display: inline-block
+}
+label.e-mail{
+    font-family: Verdana;
+    font-size: 11px;
+    width: 62px;
+    margin-left: 10px;
+    margin-right: -7px;
+    margin-top: 10px;
+    margin-bottom: 11px;
+    padding: 6px 37px 6px 74px;
+    background-color: #E0F0E8;
+    display: inline-block;
+}
+label.alternate{
+    font-family: Verdana;
+    font-size: 11px;
+    margin-left: 9px;
+    margin-right: -7px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    padding: 6px 2px 6px 67px;
+    background-color: #E0F0E8;
+    display: inline-block;
+    text-align: revert-layer;
+}
+input#name{
+    font-family: Verdana;
+    font-size: 9.5px;
+    width: 222px;
+    padding: 2px 0px 2px 0px;
+    margin-bottom: 4px;
+    margin-left: 0px;
+    margin-top: -1px;
+    margin-right: 6px;
+}
+input#e-mail{
+    font-family: Verdana;
+    font-size: 9.5px;
+    width: 312px;
+    padding: 2px 0px 2px 0px;
+    margin-bottom: 4px;
+    margin-left: 8px;
+    margin-top: -1px;
+    margin-right: 6px;
+}
+input#alternate{
+    font-family: Verdana;
+    font-size: 9.5px;
+    width: 312px;
+    padding: 2px 0px 2px 0px;
+    margin-bottom: 4px;
+    margin-left: 8px;
+    margin-top: -1px;
+    margin-right: 6px;
+}
+.delta4 {
+    display: flex; /* Para alinear todos los elementos en la misma línea */
+    align-items: center; /* Para centrar verticalmente los elementos */
+    width: 467px;
+}
+
+label.phone {
+    font-family: Verdana;
+    text-align: end;
+    font-size: 11px;
+    margin-top: -9px;
+    margin-bottom: 8px;
+    margin-right: -5px;
+    margin-left: 8.7px;
+    padding: 10px 69px;
+    background-color: #E0F0E8;
+}
+
+div.linea3 {
+    font-family: Verdana;
+    margin-bottom: 13px;
+    font-size: 9px;
+    margin-left: 10px;
+    width: 465px;
+}
+
+div.texto3 {
+    display: flex; /* Para alinear los elementos hijos en la misma línea */
+    align-items: center; /* Para centrar verticalmente los elementos hijos */
+}
+
+input.textbox1{
+    font-family: verdana;
+    font-size: 9.5px;
+    width: 38px;
+    padding: 5px;
+    margin: 0px;
+    padding: 2px 5px;
+}
+input.textbox2{
+    font-family: verdana;
+    font-size: 9.5px;
+    width: 35px;
+    padding: 2px 0px;
+    margin: 0px 0px 0px 13px;
+}
+input.textbox3{
+    font-family: verdana;
+    font-size: 9.5px;
+    width: 50px;
+    padding: 2px 50px;
+    margin: 0px 0px 0px 14px;
+}
+
