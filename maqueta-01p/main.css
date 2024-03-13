@@ -1,0 +1,95 @@
+#wrapper{
+    position: relative;
+    max-width: 1160px;
+    max-height: 1160px;
+}
+#header {
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    width: 1160px;
+    height: 92px;
+}
+/* div.fondo{
+    position: absolute;
+    background-image: url(maqueta_profesional/orange.jpg);
+    background-repeat: no-repeat ;
+    opacity: 20%;
+    height: 1160px;
+    width: 1160px;
+} */
+#titulo{
+    font-family: verdana;
+    font-size: 38px;
+    padding: 8px 31px;
+    color: orange;
+}
+#subtitulo{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 1px 36px;
+    color: white;
+    width: 183px;
+}
+nav.navegacion{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    overflow: auto;
+    margin-top: -57px;
+    text-overflow: clip;
+}
+.navegacion ul{
+    list-style: none;
+    padding: 0px;
+    margin: 15px;
+    margin-right: 178px;
+}
+.navegacion li{
+    display: inline;
+    float: left;
+    vertical-align: middle;
+    margin-right: 61px;
+}
+.navegacion a{
+    display: block;
+    padding: 0px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    color: white;
+}
+.navegacion a:hover{
+    background-color: yellow;
+}
+/* final de el encabezado */
+
+/* Empieza Main contenido */
+#main{
+    background-color: orange;
+    position: relative;
+    width: 300px;
+    height: 600px;
+}
+div.titulo2{
+    font-family: verdana;
+    font-size: 30px;
+    padding: 8px 31px;
+    margin-top: 50px;
+    margin-left: 15px
+}
+#info1{
+    border-top: black 2px dashed;
+    border-bottom: black 2px dashed;
+    display: flex;
+    width: 410px;
+    justify-content: space-around;
+    margin-left: 33px;
+    margin-top: 15px;
+}
+.date,
+.author,
+.category¨{
+    font-family: verdana;
+    font-size: 13px;
+}
+
