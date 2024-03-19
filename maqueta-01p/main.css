@@ -64,7 +64,105 @@ nav.navegacion{
 /* final de el encabezado */
 
 /* Empieza Main contenido */
-#main{
+/* Background empiezo */
+.background{
+    background-color: orange;
+    width: 478px;
+    height: 986px;
+    padding: 20px;
+}
+.background h2{
+    text-align: unset;
+    font-family: verdana;
+    font-size: 31px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+/* Background final */
+
+/* Datos principio */
+.metadata-line01{
+    border-top: white 1px dotted;
+    border-bottom: white 1px dotted;
+    margin-left: 4px;
+    margin-top: 15px;
+    width: auto;
+    padding: 2px
+}
+.metadata01{
+    font-size: 16px;
+    color: black;
+    font-family: verdana;
+}
+/* Datos final */
+
+/* Contenedor de imagen y parrafo (flex) principio */
+/* Primera imagen 01 */
+.contenedor-01{
+    display: flex;  
+    align-items: flex-start;
+    margin-top: -25px;
+}
+.contenedor-01 img{
+    width: auto;
+    border: black 1px solid;
+    margin-top: 60px;
+    margin-left: 4px;
+}
+/* final imagen 01 */
+/* Parrafo de la imagen 01 */
+.parra-01{
+    font-size: 17px;
+    text-align: justify;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+/* final del parrafo imagen 01 */
+/* Flex que ayuda a mantener en linea todo */
+div.alineados01{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+/* final del flex */
+/* Contenedor de imagen y parrafo (flex) final */
+
+/* Principio de los iconos de la parte de arriba */
+.icono-mensaje img{   
+    width: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
+    text-align: start;
+}
+.parra-ico-01{
+    font-size: 14px;
+    font-family: verdana;
+}
+.icono-play img{
+    width: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.parra-ico-02{
+    font-size: 14px;
+    font-family: verdana;  
+}
+/* Final de los iconos de la parte de arriba */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #main{
     background-color: orange;
     position: relative;
     width: 300px;
@@ -85,11 +183,5 @@ div.titulo2{
     justify-content: space-around;
     margin-left: 33px;
     margin-top: 15px;
-}
-.date,
-.author,
-.category¨{
-    font-family: verdana;
-    font-size: 13px;
-}
+} */
 
