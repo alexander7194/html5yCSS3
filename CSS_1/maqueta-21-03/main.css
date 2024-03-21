@@ -1,0 +1,300 @@
+#wrapper{
+    position: relative;
+    max-width: 1160px;
+    max-height: 1160px;
+}
+#header {
+    background-color: rgb(0, 0, 0);
+    border-bottom: 1px solid white;
+    position: relative;
+    width: 1160px;
+    height: 92px;
+}
+/* div.fondo{
+    position: absolute;
+    background-image: url(maqueta_profesional/orange.jpg);
+    background-repeat: no-repeat ;
+    opacity: 30%;
+    height: 1160px;
+    width: 1160px;
+} */
+.encabezado a{
+    text-decoration: none;
+}
+#titulo{
+    font-family: verdana;
+    font-size: 38px;
+    padding: 8px 31px;
+    color:  #ff9c01;
+}
+#subtitulo{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 1px 36px;
+    color: white;
+    width: 183px;
+}
+.nav-01 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -60px;
+}
+.nav-01 ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+    margin-right: 210px;
+}
+.nav-01 li {
+    display: inline;
+    margin-right: 30px; 
+}
+.nav-01 a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px; 
+    border-radius: 5px;
+}
+.nav-01 a:hover {
+    background: linear-gradient(to bottom, #f2f2f2, #ff9c01);
+    padding: 5px 20px;
+    color: #050505;
+}
+.nav-01 a:after {
+    content: none; 
+}
+/* final de el encabezado */
+
+/* Empieza Main contenido */
+/* Background empiezo */
+.background{
+    background: linear-gradient(to top, #e09f11, #ff9c01);
+    border-right: 1px solid white;
+    width: 478px;
+    height: 986px;
+    padding: 20px;
+    float: left;
+}
+.background h2{
+    text-align: unset;
+    font-family: verdana;
+    font-size: 31px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+/* Background final */
+
+/* Datos principio */
+.metadata-line01,
+.metadata-line02{
+    border-top: white 1px dotted;
+    border-bottom: white 1px dotted;
+    margin-left: 4px;
+    margin-top: 15px;
+    width: auto;
+    padding: 2px
+}
+.metadata01,
+.metadata02{
+    font-size: 16px;
+    color: black;
+    font-family: verdana;
+}
+/* Datos final */
+
+/* Contenedor de imagen y parrafo (flex) principio */
+/* Primera imagen 01 */
+.contenedor-01,
+.contenedor-02{
+    display: flex;  
+    align-items: flex-start;
+    margin-top: -25px;
+}
+.contenedor-01 img,
+.contenedor-02 img{
+    width: auto;
+    border: black 1px solid;
+    margin-top: 60px;
+    margin-left: 4px;
+}
+/* final imagen 01 */
+/* Parrafo de la imagen 01 */
+.parra-01,
+.parra-02{
+    font-family: sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 8px;
+}
+/* final del parrafo imagen 01 */
+/* Flex que ayuda a mantener en linea todo */
+div.alineados01,
+div.alineados02{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+/* final del flex */
+/* Contenedor de imagen y parrafo (flex) final */
+
+/* Principio de los iconos de la parte de arriba */
+.icono-mensaje01 img,
+.icono-mensaje02 img{   
+    width: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
+    text-align: start;
+}
+.parra-ico-01,
+.parra-ico-03{
+    font-size: 14px;
+    font-family: verdana;
+}
+.icono-play01 img,
+.icono-play02 img{
+    width: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.parra-ico-02,
+.parra-ico-04{
+    font-size: 14px;
+    font-family: verdana;  
+}
+/* Final de los iconos de la parte de arriba */
+
+/* Parte derecha aside */
+.background-aside{
+    background-color: #f2f2f2;
+    width: 1160px;
+    height: 1026px;
+}
+div.item-03{
+    margin-left: 550px;
+    padding: 30px 0px 0px 0px;
+}
+div.item-06{
+    margin-left: 550px;
+    margin-bottom: 38px;
+    border-bottom: solid 1px #4b4c46;
+    width: 390px;
+    padding: 0px 0px 27px 0px;
+}
+.contenedor-ae{
+   display: flex;
+   position: relative;
+   z-index: 1;
+}
+.fila1,
+.fila2{
+    flex: 1;
+}
+.fila1 h3{
+    font-size: 19px;
+    font-weight: 600;
+    margin-left: 32px;
+    font-family: sans-serif;
+    color: #e09f11;
+    display: inline;
+}
+.fila1 li{
+    font-family: verdana;
+    font-size: 13px;
+    border-bottom: 1px #4b4c46 dotted;
+    margin-bottom: -6px;
+    margin-top: 15px;
+    padding: 1px 0px 9px 0px;
+    margin-left: 31px;
+    margin-right: 110px;
+}
+.fila2 h3,
+.fila2 a,
+.fila2 p {
+    margin-left: -80px;
+    font-family: verdana, sans-serif;
+}
+.fila2 h3 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #e09f11;
+    margin-bottom: 21px;
+    margin-left: -85px;
+}
+.fila2 a {
+    font-size: 13px;
+    color: #ff7336;
+    font-weight: bold;
+    display: inline-block;
+}
+.fila2 p {
+    font-size: 14px;
+    color: #050505;
+    margin-right: 209px;
+    padding: 0px 0px 24px 0px;
+    line-height: 1.5;
+}
+img{
+    margin-top: -35px;
+    position: relative;
+    z-index: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+#footer{
+    background-color: black;
+    border-top: 1px solid white;
+    width: 1160px;
+    height: 42px;
+}
+div.final-ae{
+    padding: 15px 30px;
+    font-family: sans-serif;
+    
+}
+.final-ae p{
+    font-size: 14px;
+    color: white;
+    display: inline;
+}
+.final-ae a{
+    font-size: 14px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* #main{
+    background-color: orange;
+    position: relative;
+    width: 300px;
+    height: 600px;
+}
+div.titulo2{
+    font-family: verdana;
+    font-size: 30px;
+    padding: 8px 31px;
+    margin-top: 50px;
+    margin-left: 15px
+}
+#info1{
+    border-top: black 2px dashed;
+    border-bottom: black 2px dashed;
+    display: flex;
+    width: 410px;
+    justify-content: space-around;
+    margin-left: 33px;
+    margin-top: 15px;
+} */
+
