@@ -1,0 +1,253 @@
+#wrapper{
+    max-width: 957px;
+    max-height: 3714px;
+}
+    /* div.fondo{
+    position:  fixed;
+    background-image: url(selectores/maqueta.png);
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    opacity: 30%;
+    width: 957px;
+    height: 3714px;
+    z-index: -1;
+} */
+
+/* titulo + display flex, que ajusta la separacion de las dos partes
+del encabexado */
+div.encabezado a{
+    text-decoration: none;
+}
+div.encabezado h1{
+    font-family: none;
+    font-size: 30px;
+    margin-top: 16px;
+}
+div.encabezado{
+    margin-left: 46px;
+    margin-top: 47px; 
+    display: flex;
+    justify-content: space-between;
+}
+/* Final del titulo + flex */
+
+.parrafo01 a,
+.parrafo02 a,
+.parrafo03 a,
+.parrafo04 a,
+.parrafo05 a,
+.parrafo06 a{
+    text-decoration: none;
+    display: grid;
+    justify-items: end;
+}
+.parrafo07 a{
+    text-decoration: none;
+    display: grid;
+    justify-items: end;
+    padding: 0px 0px 40px 0px;
+}
+
+/* Borde radius + todo su contenido interior + h2 + ul */
+div.documentacion{
+    border-radius: 3%;
+    border: solid 1px rgba(0, 0, 0, 0.401);
+    padding: 10px 10px;
+    margin-right: 10px;
+    margin-left: 212px;
+    margin-top: -35px;
+}
+div.documentacion h2{
+    font-weight: 500;
+    font-family: none;
+    font-size: 28px;
+    padding: 0px 0px 0px 0px;
+}
+div.documentacion p{
+    font-style: italic;
+    margin-bottom: -5px;
+}
+div.documentacion ul{
+    list-style: none;
+    padding: 0px 0px 2px 0px;
+}
+div.documentacion li{
+    font-size: 15px;
+    font-family: none;
+}
+div.documentacion img{
+    margin-right: 5px;
+}
+/* Final del borde, final del encabezado */
+
+/* Navegacion */
+nav.navegacion h3{
+    font-family: none;
+    font-size: 22px;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    margin-left: 7px;
+}
+nav.navegacion ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav.navegacion a{
+    margin-right: 4px;
+    margin-left: -19px;
+    font-size: 15px;
+    font-family: none;
+    text-decoration: none;
+}
+/* Final de Navegacion */
+
+/* Parrafo 01 color gris */
+.parrafo01 p:first-of-type,
+.parrafo01 p:last-of-type{
+    color: rgba(74, 74, 74, 0.968); 
+}
+
+/* Parrafo 02 color gris */
+
+.parrafo02 p:first-of-type{
+    color: rgba(74, 74, 74, 0.968); 
+}
+
+/* Parrafo 03 color gris */
+
+.parrafo03 p:first-of-type{
+    color: rgba(74, 74, 74, 0.968); 
+}
+
+/* Parrafo 04 color gris */
+.parrafo04 p:first-of-type,
+.parrafo04 p:nth-last-of-type(3),
+.parrafo04 p:nth-last-of-type(5),
+.parrafo04 p:nth-of-type(9){
+    color: rgba(74, 74, 74, 0.968); 
+}
+
+/* Parrafo 05 color gris */
+
+.parrafo05 p:nth-of-type(2n + 1){
+    color: rgba(74, 74, 74, 0.968); 
+}
+
+/* Parrafo 06 color gris */
+
+.parrafo06 p:first-of-type,
+.parrafo06 p:nth-last-of-type(5){
+    color: rgba(74, 74, 74, 0.968); 
+
+}
+
+/* Parrafo 07 color gris */
+
+.parrafo07 p:nth-of-type(2n + 1){
+    color: rgba(74, 74, 74, 0.968); 
+}
+
+/* Primer parrafo 01 */
+
+h4#introduction{
+    color: black;
+    font-size: 28px;
+    font-family: none;
+    margin-left: 20px;
+    margin-top: 34px;
+}
+
+.parrafo01 p{
+    font-size: 18px;
+    font-family: none;
+    padding: 8px 19px;
+}
+
+/* Segundo parrafo 02 */
+h4#general-requirements{
+    color: black;
+    font-size: 28px;
+    font-family: none;
+    margin-left: 20px;
+    margin-top: 44px;
+}
+
+.parrafo02 p{
+    font-size: 18px;
+    font-family: none;
+    padding: 7px 22px;
+}
+
+/* Tercer parrafo 03 */
+h4#overall-file-structure{
+    color: black;
+    font-size: 28px;
+    font-family: none;
+    margin-left: 20px;
+    margin-top: 48px;
+}
+
+.parrafo03 p{
+    font-size: 18px;
+    font-family: none;
+    padding: 7px 24px;
+}
+
+/* Cuarto parrafo 04 */
+h4#woff-header{
+    color: black;
+    font-size: 32px;
+    font-family: none;
+    margin-left: 20px;
+    margin-top: 48px;
+}
+.parrafo04 p{
+    font-size: 18px;
+    font-family: none;
+    padding: 7px 24px;
+}
+
+/* Quinto parrafo 05 */
+h4#table-directory{
+    color: black;
+    font-size: 32px;
+    font-family: none;
+    margin-left: 20px;
+    margin-top: 48px;
+}
+
+.parrafo05 p{
+    font-size: 18px;
+    font-family: none;
+    padding: 7px 24px;
+}
+
+/* Sexto parrafo 06 */
+h4#font-date-tables{
+    color: black;
+    font-size: 28px;
+    font-family: none;
+    margin-left: 20px;
+    margin-top: 48px;
+}
+.parrafo06 p{
+    font-size: 18px;
+    font-family: none;
+    padding: 7px 24px;
+}
+
+/* Septimo parrafo 07 */
+h4#extended-metadata-block{
+    color: black;
+    font-size: 30px;
+    font-family: none;
+    margin-left: 20px;
+    margin-top: 48px;
+}
+
+.parrafo07 p{
+    font-size: 18px;
+    font-family: none;
+    padding: 7px 24px;
+}
+
