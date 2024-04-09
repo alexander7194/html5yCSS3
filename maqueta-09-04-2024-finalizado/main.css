@@ -1,0 +1,318 @@
+    #wrapper{
+    position: relative;
+    max-width: 1160px;
+    max-height: 1160px;
+}
+#header {
+    background-color: rgb(0, 0, 0);
+    border-bottom: 1px solid #f2f2f2;
+    position: relative;
+    width: 1160px;
+    height: 92px;
+}
+/* div.fondo{
+    position: absolute;
+    background-image: url(maqueta_profesional/orange.jpg);
+    background-repeat: no-repeat ;
+    opacity: 30%;
+    height: 1160px;
+    width: 1160px;
+} */
+.encabezado a{
+    text-decoration: none;
+}
+#titulo{
+    font-family: sans-serif;
+    font-size: 44px;
+    font-weight: bold;
+    padding: 3px 31px;
+    background: linear-gradient(to top, #ff7336, #e09f11);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#subtitulo{
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 0px 40px;
+    color: #f2f2f2;
+    width: 215px;
+}
+.nav-01 {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -60px;
+}
+.nav-01 ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+    margin-right: 210px;
+}
+.nav-01 li {
+    display: inline;
+    margin-right: 30px; 
+}
+.nav-01 a {
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 16px;
+    padding: 5px 10px; 
+    border-radius: 5px;
+}
+.nav-01 a:hover {
+    background: linear-gradient(to bottom, #f2f2f2, #ff9c01);
+    padding: 5px 20px;
+    color: #050505;
+}
+.nav-01 a:after {
+    content: none; 
+}
+/* final de el encabezado */
+
+/* Empieza Main contenido */
+main {
+    overflow: auto;
+    background-image: url(../maqueta-26-03/maqueta_profesional/sidebar.jpg);
+    background-repeat: no-repeat;
+    background-position: 532px bottom;
+    background-color: #f2f2f2;
+}
+div.recuadro01{
+    clip-path: polygon(0 0, 0 11%, 100% 0);
+}
+.izquierda-arriba-columna {
+    float: left;
+    width: 46%;
+}
+/* Background empiezo */
+.background{
+    background: linear-gradient(to top, #e09f11, #ff9c01);
+    border-right: 1px solid #f2f2f2;
+    padding: 20px;
+}
+/* div.recuadro01{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    box-shadow: 0 2px 0 0 #000, 0 -2px 0 0 #000;
+    padding: 20px; 
+} */
+.background h2{
+    color: #f2f2f2;
+    text-align: unset;
+    font-family: verdana;
+    font-size: 31px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+/* Background final */
+
+/* Datos principio */
+.metadata-line01 b,
+.metadata-line02 b{
+    font-weight: bold;
+}
+.metadata-line01,
+.metadata-line02{
+    border-top: #f2f2f2 1px dotted;
+    border-bottom: #f2f2f2 1px dotted;
+    margin-left: 4px;
+    margin-top: 15px;
+    width: auto;
+    padding: 2px
+}
+.metadata01,
+.metadata02{
+    font-size: 15px;
+    color: #050505;
+    font-family: verdana;
+}
+.metadata01 a,
+.parra-01 a,
+.metadata02 a,
+.parra-02 a{
+    color: black;
+}
+/* Datos final */
+
+/* Contenedor de imagen y parrafo (flex) principio */
+/* Primera imagen 01 */
+.contenedor-01,
+.contenedor-02{
+    display: flex;  
+    align-items: flex-start;
+    margin-top: -25px;
+}
+.contenedor-01 img,
+.contenedor-02 img{
+    width: auto;
+    border: #050505 1px solid;
+    margin-top: 60px;
+    margin-left: 4px;
+}
+/* final imagen 01 */
+/* Parrafo de la imagen 01 */
+.parra-01,
+.parra-02{
+    font-family: sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 8px;
+}
+/* final del parrafo imagen 01 */
+/* Flex que ayuda a mantener en linea todo */
+div.alineados01,
+div.alineados02{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+/* final del flex */
+/* Contenedor de imagen y parrafo (flex) final */
+
+/* Principio de los iconos de la parte de arriba */
+.icono-mensaje01 img,
+.icono-mensaje02 img{   
+    width: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
+    text-align: start;
+}
+.icono-mensaje01 a,
+.icono-play01 a,
+.icono-mensaje02 a,
+.icono-play02 a{
+    text-decoration: none;
+    color: black;
+}
+
+.parra-ico-01,
+.parra-ico-03{
+    font-size: 14px;
+    font-family: verdana;
+}
+.icono-play01 img,
+.icono-play02 img{
+    width: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.parra-ico-02,
+.parra-ico-04{
+    font-size: 14px;
+    font-family: verdana;  
+}
+/* Final de los iconos de la parte de arriba */
+
+/* Parte derecha aside */
+.derecha-arriba-columna {
+    float: left;
+    padding-left: 40px;
+    width: calc(54% - 40px);
+}
+.background-aside{
+    width: 67%;
+}
+/* Iconos principio 3x3 */
+div.item-03{
+    /* margin-left: 550px; */
+    padding: 45px 0px 0px 0px;
+}
+div.item-06{
+    /* margin-left: 550px; */
+    margin-bottom: 38px;
+    border-bottom: solid 1px #4b4c46;
+    width: 390px;
+    padding: 0px 0px 27px 0px;
+}
+/* Iconos final 3x3 */
+/* Contenedor con flex que contiene las 2 filas */
+.contenedor-ae{
+   display: flex;
+   position: relative;
+   z-index: 1;
+}
+/* Contenedor final */
+/* filas principio */
+.fila1 {
+    margin-right: 30px;
+}
+.fila1,
+.fila2{
+    flex: 1;
+}
+.fila1 h3{
+    font-size: 19px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #e09f11;
+    display: inline;
+}
+.fila1 li{
+    font-family: verdana;
+    font-size: 13px;
+    border-bottom: 1px #4b4c46 dotted;
+    margin-bottom: -6px;
+    margin-top: 11px;
+    padding: 1px 0px 9px 0px;
+    /* margin-right: 110px; */
+}
+.fila2 h3,
+.fila2 a,
+.fila2 p {
+    font-family: verdana, sans-serif;
+}
+.fila2 h3 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #e09f11;
+    margin-bottom: 21px;
+}
+.fila2 a {
+    font-size: 13px;
+    color: #ff7336;
+    font-weight: bold;
+    display: inline-block;
+}
+.fila2 p {
+    font-size: 14px;
+    color: #050505;
+    padding: 0px 0px 24px 0px;
+    line-height: 1.5;
+    border-bottom: 1px #4b4c46 dotted;
+}
+/* filas final */
+/* Imagen naranja */
+div.naranja-ae{
+    margin-top: -124px;
+    position: relative;
+    z-index: 0;
+    margin-left: 519px;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+/* Imagen naranja final */
+/* Pie de pagina principio */
+#footer{
+    background-color: #050505;
+    border-top: 1px solid #f2f2f2;
+    width: 1160px;
+    height: 42px;
+}
+div.final-ae{
+    padding: 15px 30px;
+    font-family: sans-serif;
+}
+.final-ae p{
+    font-size: 14px;
+    color: #f2f2f2;
+    display: inline;
+}
+.final-ae a{
+    font-size: 14px;
+    color: #f2f2f2;
+}
+/* Final de pie de pagina */
