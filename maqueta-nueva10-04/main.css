@@ -1,0 +1,44 @@
+body {
+    background: url(Torre-agbar-nit.jpg) no-repeat;
+    background-size: cover;
+}
+#wrapper {
+    max-width: 1840px;
+    margin: 0 auto; 
+    padding: 10px; 
+}
+
+.encabezado {
+    width: 245px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.encabezado h1 {
+    font-size: 30px;
+    font-family: "Patrick Hand", cursive;
+    margin: 0; 
+}
+
+h1.blanco {
+    color: white;
+    font-weight: lighter;
+}
+
+.naranja {
+    color: orange;
+}
+
+.subtitulo {
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+}
+
+p {
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin: 0; 
+}
+
