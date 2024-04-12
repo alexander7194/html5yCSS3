@@ -1,0 +1,81 @@
+body {
+    background: url(Torre-agbar-nit.jpg) no-repeat;
+    background-size: cover;
+}
+#wrapper {
+    max-width: 1840px;
+    margin: -20px auto;
+    padding: 5px;
+    margin-left: 200px;
+}
+
+.encabezado {
+    width: 245px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.encabezado h1 {
+    font-size: 30px;
+    font-family: "Patrick Hand", cursive;
+    margin: 0; 
+}
+
+h1.blanco {
+    color: white;
+    font-weight: lighter;
+}
+
+.naranja {
+    color: orange;
+}
+
+.subtitulo {
+    width: 400px;
+    padding: 0px 10px;
+}
+
+p {
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin: 0;
+}
+
+/* Sistema de navegacion */
+
+#navegacion{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 800px;
+    padding: 1px 5px;
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 775px;
+    padding-inline-start: 2em;
+    list-style: none;
+}
+li{
+    margin-right: -140px;
+}
+nav#navegacion a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 1px 0px;
+    font-family: "Dosis", sans-serif;
+    font-weight: lighter;
+}
+/* final de sistema de navegacion */
+
+.contenedor{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 800px;
+    padding: 300px 400px;
+    margin: 10px;
+}
+
