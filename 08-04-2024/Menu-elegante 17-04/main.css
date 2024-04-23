@@ -1,0 +1,64 @@
+/* Estilos para el wrapper */
+#wrapper {
+    background: linear-gradient(to bottom, #A9A9A9, #7A7A7A);
+    border-radius: 20px; /* Ajustado a 20px */
+    width: 800px;
+    padding: 10px;
+}
+
+/* Estilos para la lista principal */
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilos para cada ítem de la lista */
+ul li {
+    position: relative;
+    display: inline-block;
+}
+
+/* Estilos para los enlaces de la lista principal */
+ul > li > a {
+    color: #E7E5E5; /* Color de texto blanco para los elementos principales */
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+}
+
+/* Estilos para los enlaces de los submenús */
+ul li ul li a {
+    color: black; /* Color de texto negro para los elementos secundarios */
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+}
+
+/* Estilos para el hover en el enlace principal */
+ul > li:hover > a {
+    background-color: red; /* Cambio de fondo a rojo */
+}
+
+/* Estilos para mostrar los submenús al hacer hover */
+ul > li:hover > ul {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1; /* Asegura que los submenús estén sobre otros elementos */
+}
+
+/* Estilos para el fondo de los submenús */
+ul li ul {
+    display: none;
+    background: linear-gradient(to top, #A9A9A9, #E7E5E5);
+    border-radius: 20px;
+    padding: 0; /* Elimina el relleno */
+}
+
+/* Estilos para los ítems de los submenús */
+ul li ul li {
+    
+    display: block;
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+}
