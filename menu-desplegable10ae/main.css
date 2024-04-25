@@ -1,0 +1,37 @@
+
+#wrapper{
+    background: linear-gradient(to bottom,  #A9A9A9, #7A7A7A);
+    border-radius: 50px;
+    width: 800px;
+    padding: 10px 10px;
+
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+ul li a:hover{
+    background-color: red;
+    
+}
+ul li{
+    position: relative;
+    display: flex;
+}
+ul li ul{
+    display: none;
+    background: linear-gradient(to top  ,  #A9A9A9, #E7E5E5);
+    border-radius: 20px;
+    display: inline-block;
+    
+}
+ul li:hover{
+    display: block;
+}
+
+li a{
+    color: #E7E5E5;
+}
+ul li a{
+    color: black;
+}
