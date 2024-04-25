@@ -1,0 +1,18 @@
+#wrapper{
+    max-width: 84rem;
+    background-color: grey;
+}
+div.encabezado a{
+    text-decoration: none;
+}
+div.encabezado h1{
+    font-family: none;
+    font-size: 30px;
+    margin-top: 16px;
+}
+div#wrapper{
+    margin-left: 46px;
+    margin-top: 47px; 
+    display: flex;
+    justify-content: space-between;
+}
