@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="reset.css" />
+    <link type="text/css" rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+    <title>Los nuevos selectores</title>
+</head>
+<body>
+    <!-- <div id="video-background">
+        <div class="video-wrap">
+          <video autoplay muted loop>
+            <source src="relojes+descrip/video.mp4.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de videos.
+          </video>
+        </div> -->
+        <div id="wrapper"></div>
+            <div class="encabezado">
+                <h1>La Manilla de Oro</h1>
+            </div>
+            <nav class="navegacion">
+                <ul>
+                    <li> 
+                        <a href="#">Inicio</a>
+                    </li>
+                    <li> 
+                        <a href="#">Ofertas</a>
+                    </li>
+                    <li> 
+                        <a href="#">Novedades</a>
+                    </li>
+                    <li> 
+                        <a href="#">Promociones</a>
+                    </li>
+                    <li> 
+                        <a href="#">Antiguedades</a>
+                    </li>
+                    
+                    
+                </ul>
+            </nav>
+            <video autoplay muted loop id="video-background">
+                <source src="relojes+descrip/video.mp4.mp4" type="video/mp4">
+                Tu navegador no soporta el formato mp4.
+            </video>
+            <div class="img-container">
+                <div class="img-01">
+                    <img src="relojes+descrip/1.jpg" alt="Reloj 1">
+                    <h4>Reloj 1</h4>
+                    <p>Descripción del reloj 1</p>
+                </div>
+                <div class="img-02">
+                    <img src="relojes+descrip/2.jpg" alt="Reloj 2">
+                    <h4>Reloj 2</h4>
+                    <p>Descripción del reloj 2</p>
+                </div>
+                <div class="img-03">
+                    <img src="relojes+descrip/3.jpg" alt="Reloj 3">
+                    <h4>Reloj 3</h4>
+                    <p>Descripción del reloj 3</p>
+                </div>
+            </div>
+            <div class="img-container">
+                <div class="img-04">
+                    <img src="relojes+descrip/4.jpg" alt="Reloj 4">
+                    <h4>Reloj 4</h4>
+                    <p>Descripción del reloj 4</p>
+                </div>
+                <div class="img-05">
+                    <img src="relojes+descrip/5.jpg" alt="Reloj 5">
+                    <h4>Reloj 5</h4>
+                    <p>Descripción del reloj 5</p>
+                </div>
+                <div class="img-06">
+                    <img src="relojes+descrip/6.jpg" alt="Reloj 6">
+                    <h4>Reloj 6</h4>
+                    <p>Descripción del reloj 6</p>
+                </div>
+            </div>
+            
+            
+        </div>
+    <!-- <div id="wrapper">
+        <div class="fondo"></div>
+        <div class="encabezado">
+            <nav class="navegacion">
+                <h1>Diferentes tipos de fuentes</h1>
+                <ul>
+                    <li><a href="#la-manilla-de-oro">La manilla de Oro"</a> |</li>
+                    <li><a href="#la-rambleta">La rambleta</a> |</li>
+                    <li><a href="#corebit">Corebit</a> |</li>
+                </ul>
+             </nav>
+        <section id="la-manilla-de-oro">
+            <div class="parrafo01">
+                <h4>Introduction <img src="selectores/forward.png" alt="Icono de flecha azul"></h4>
+                <p>
+                    This document specifies a simple compressed file format for fonts, designed primarily for use on the Web and known as WOFF (Web Open Font Format). Despite this name, WOFF should be regarded as a container format or "wrapper" for font data in already-existing formats rather than an actual font format in its own right.
+                </p>
+                <p>
+                    The WOFF format is a container for the table-based sfnt structure used in e.g. TrueType [TrueType], OpenType [OpenType] and Open Font Format [OFF] fonts, hereafter referred to as sfnt fonts. A WOFF file is simply a repackaged version of a sfnt font with optional compression of the font data tables. The WOFF file format also allows font metadata and private-use data to be included separately from the font data. WOFF encoding tools convert an input sfnt font into a WOFF formatted file, and user agents restore the sfnt font data for use with a Web document.
+                </p>
+                <p>
+                    The structure and contents of decoded font data exactly match those of a well-formed input font file. Tools producing WOFF files may provide other font editing features such as glyph subsetting, validation or font feature additions but these are considered outside the scope of this format. Independent of these features, both tools and user agents are expected to assure that the validity of the underlying font data is preserved.
+                </p>
+                <a href="#wrapper">↑ Up</a>
+            </div>
+        </section>
+        <section id="la-rambleta">
+            <div class="parrafo02">
+            <h4>General Requirements</h4>
+                <p>
+                    The primary purpose of the WOFF format is to package fonts linked to Web documents by means of CSS @font-face rules. User agents supporting the WOFF file format for linked fonts must respect the requirements of the CSS3 Fonts specification ([CSS3-Fonts] Section 4.1: The @font-face rule). In particular, such linked fonts are only available to the documents that reference them; they MUST NOT be made available to other applications or documents on the user's system.
+                </p>
+                <p>
+                    Note <br>
+                    The WOFF format is intended for use with @font-face to provide fonts linked to specific Web documents. Therefore, WOFF files must not be treated as an installable font format in desktop operating systems or similar environments. The WOFF-packaged data will typically be decoded to sfnt format for use by existing font-rendering APIs that expect OpenType font data, but such decoded font must not be exposed to other documents or applications.
+                </p>
+                <a href="#wrapper">↑ Up</a> 
+            </div>
+        </section id="corebit">
+            <div class="parrafo03">
+                <h4>Overall File Structure</h4>
+                <p>
+                    The structure of WOFF files is similar to the structure of sfnt fonts: a table directory containing lengths and offsets to individual font data tables, followed by the data tables themselves. The sfnt structure is described fully in the TrueType [TrueType], OpenType [OpenType] and Open Font Format [OFF] specifications.
+                </p>
+                <p>
+                    The main body of the file consists of the same collection of font data tables as the input sfnt font, stored in the same order, except that each table MAY be compressed, and the sfnt table directory is replaced by the WOFF table directory.
+                </p>
+                <p>
+                    Note <br>
+                    The WOFF specification does not guarantee that the actual font data packaged in a valid WOFF container is in fact correct and usable. It requires only that the WOFF packaging structure header, table directory, and compressed tables conforms to this specification. The contained data must be used with just as much caution as font data delivered in "raw" form or via any other packaging method.
+                </p>
+                <a href="#wrapper">↑ Up</a>
+            </div>
+    </div> -->
+</body>
+</html>
