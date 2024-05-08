@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+#wrapper{
+    max-width: 1920px;
+    min-height: auto;
+}
+img.img-1{
+    position: relative;
+    width: 7rem;
+    /* height: 400px; */
+    float: left;
+    /* border: 1px solid white; */
+}
+h1{ 
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+div.fondo-red{
+    height: 0;
+}
+img.portada-red {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+div.p-fondo{
+    float: left;
+}
+/* nav.navegacion{
+     float: inline-start
+} */
+.navegacion ul{
+    display: flex;
+    justify-content: space-around;
+    width: 45rem;
+    margin-left: 5%;
+    flex-direction: row; 
+}
+.navegacion li{
+    margin-left: 20%;
+
+}
+.navegacion li a{
+    font-size: 17px;
+    color: white;
+    
+}
