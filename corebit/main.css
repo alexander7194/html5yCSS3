@@ -1,52 +1,95 @@
-body{
+html>body{
     background-color: rgb(0, 0, 0);
+    margin: 0;
 }
 #wrapper{
-    max-width: 1920px;
-    min-height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
 }
 img.img-1{
-    position: relative;
-    width: 7rem;
-    /* height: 400px; */
-    float: left;
-    /* border: 1px solid white; */
-}
-h1{ 
-    position: absolute;
-    font-size: 50px;
-    color: white;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-div.fondo-red{
-    height: 0;
-}
-img.portada-red {
-    max-width: 100%;
-    object-fit: cover;
-}
-
-div.p-fondo{
+    width: 6rem;
     float: left;
 }
-/* nav.navegacion{
-     float: inline-start
-} */
 .navegacion ul{
     display: flex;
     justify-content: space-around;
-    width: 45rem;
-    margin-left: 5%;
-    flex-direction: row; 
+    width: 77rem;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: 0;
 }
 .navegacion li{
-    margin-left: 20%;
+    text-align: center;
 
 }
 .navegacion li a{
+    font-family: "Orbitron", sans-serif;
     font-size: 17px;
     color: white;
-    
+    text-decoration: none;
+}
+h1{ 
+    font-family: "Orbitron", sans-serif;
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.fondo-red{
+    position: absolute;
+    background-color: #872a2a;
+    width: 100%;
+    height: 10rem;
+    top: 25%;
+    left:  50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    z-index: 1;
+    float: left;
+}
+div.p-fondo{
+    float: left;
+}
+
+/* div.letras{
+    position: absolute;
+    width: auto;
+    padding: 20px;
+}
+h2, p{  
+    display: block;
+    color: white;
+    font-size: 30px;
+} */
+/* div.iconos-3{
+    display: flex;
+    flex-direction: column;
+    width: auto;;
+}
+img.icono-1{
+    position: absolute;
+    width: 200px;
+    top: 80%;
+} */
+div.contenedor1{
+    width: 100rem;
+    margin: 30px auto 80px auto;
+}
+div.conjunto{
+    width: 80%;
+    float: none;
+    min-width: 100%;
+    display: block;
+    margin-bottom: 30px;
+}
+div.img-letras{
+    margin: auto;
+    float: none;
+    text-align: center;
 }
