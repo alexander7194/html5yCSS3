@@ -1,0 +1,35 @@
+/* #ordenador{
+background-image: url(icono.png);
+border: 1px solid red;
+width: 960px;
+height: 715px;
+background-position: 0 0;
+}
+
+#movil{
+    background-image: url(icono.png);
+    border: 1px solid red;
+    width: 960px;
+    height: 715px;
+    background-position: 0 0;
+    display: inline-block;
+} */
+div{
+    width: 150px;
+    padding: 10px;
+    font-size: 11px;
+    background: #099;
+    float: left;
+    margin: 10px;
+}
+div h2{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    background-image: url(mapa.png) no-repeat;
+    padding: 12px 0 12px 41px;
+
+}
+div p{
+    font-family: 'Courier New', Courier, monospace;
+}
