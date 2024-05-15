@@ -3,23 +3,25 @@ body{
     max-width: 1920px;
     background-color: white;
 }
+
 .rectangulo{
     border-bottom: solid 1px #C6C6C6 ;
-    position: absolute;
     background-color:  #E5E5E5 ;
     width: 100%;
     height: 90px;
     display: flex;
     justify-content: space-between;
-
 }
+
 .contenedor-img{
     margin-left: 42px;
     margin-top: 15px;
 }
+
 img.google-ico{
     width: auto;
 }
+
 img.espai-ico{
     margin-left: 20px;
     width: auto;
@@ -34,7 +36,105 @@ img.espai-ico{
     margin-bottom: 20px;
     padding: 8px 5px 8px 5px;
 }
+
 .login-ae a{
     color: black;
     text-decoration: none;
 }
+
+h1.titulo{
+    width: 300px;
+    color: black;
+}
+
+.contenedor01{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.contenedor01 h1{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+}
+
+.cuadrado-alargado{
+    margin-top: 10px;
+    background: red;
+    width: 350px;
+    padding: 5px 5px;
+}
+
+.nombre01,
+.nombre02,
+.contraseña,
+.contraseña01,
+.fecha,
+.sexo,
+.telefono{
+    margin: 10px;
+    padding: 6px 0px;
+} 
+
+.ae01,
+.ae02,
+.ae03,
+.ae04,
+.ae05,
+.ae06,
+.ae07{
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input#nombre{
+    margin-top: 10px;
+    width: 9rem;
+    padding: 5px 5px;
+}
+
+input#apellido{
+    margin-left: 7px;
+    width: 9rem;
+    padding: 5px 5px;
+}
+
+input#nombre-user{
+    margin-top: 10px;
+    width: 20rem;
+    padding: 5px 5px;
+}
+input#contraseña{
+    margin-top: 10px;
+    width: 20rem;
+    padding: 5px 5px;
+}
+
+input#confirma{
+    margin-top: 10px;
+    width: 20rem;
+    padding: 5px 5px;
+}
+
+input#nacimiento{
+    margin-top: 10px;
+    width: 20rem;
+    padding: 5px 5px;
+}
+
+select#sexo{
+    margin-top: 10px;
+    width: 21rem;
+    padding: 5px 5px;
+}
+
+input#telefono{
+    margin-top: 10px;
+    width: 20rem;
+    padding: 5px 5px;
+}
+
+

@@ -18,9 +18,54 @@
             <a href="#">Iniciar sesión</a>
         </div>
     </div>
-        <h1 class="titulo">Crea tu cuenta de Google-Espai</h1>
+    <div class="contenedor01">
+        <h1>Crea tu cuenta de Google-Espai</h1>
         <div class="cuadrado-alargado">
-            
+            <form action="/action.php" method="post">
+                <div class="nombre01">
+                    <label for="nombre" class="ae01">Nombre</label>
+                    <br>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre">  
+                    <input type="text" id="apellido" name="apellido" placeholder="Apellidos">
+                </div>
+                <div class="nombre02">
+                    <label for="nombre-user" class="ae02">Nombre de usuario</label>
+                    <br>
+                    <input type="text" id="nombre-user" name="nombre-user" placeholder="@gmail">
+                </div>
+                <div class="contraseña">
+                    <label for="contraseña" class="ae03">Contraseña</label>
+                    <br>
+                    <input type="text" id="contraseña" name="contraseña">
+                </div>
+                <div class="contraseña01">
+                    <label for="confirma" class="ae04">Confirma tu contraseña</label>
+                    <br>
+                    <input type="text" id="confirma" name="confirma">
+                </div>
+                <div class="fecha">
+                    <label for="nacimiento" class="ae05">Fecha de nacimiento</label>
+                    <br>
+                    <input type="date" id="nacimiento" name="nacimiento" >
+                </div>
+                <div class="sexo">
+                    <label for="sexo" class="ae06">Sexo</label>
+                    <br>
+                    <select name="sexo" id="sexo" >
+                        <option value="selecciona">Selecciona una opcion</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="femenino">Femenino</option>
+                    </select>
+                </div>
+                <div class="telefono">
+                    <label for="telefono" class="ae07">Telefono movil</label>
+                    <br>
+                    <input type="text" id="telefono" name="telefono">
+                </div>
+                <div class="check">
+                    <input type="checkbox" value="checkbox">
+                </div>
+            </form>
         </div>
     </div>
 </body>
