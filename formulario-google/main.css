@@ -1,7 +1,7 @@
 body{
     
     max-width: 1920px;
-    background-color: white;
+    background-color: #F1F1F1;
 }
 
 .rectangulo{
@@ -62,7 +62,7 @@ h1.titulo{
 
 .cuadrado-alargado{
     margin-top: 10px;
-    background: red;
+    background: #E5E5E5;
     width: 350px;
     padding: 5px 5px;
 }
@@ -107,6 +107,7 @@ input#nombre-user{
     width: 20rem;
     padding: 5px 5px;
 }
+
 input#contraseña{
     margin-top: 10px;
     width: 20rem;
@@ -136,5 +137,25 @@ input#telefono{
     width: 20rem;
     padding: 5px 5px;
 }
-
-
+.check{
+    display: flex;
+    align-items: center;
+}
+ .letras{
+    font-size: 13px;
+}
+.siguiente{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 10px;
+    padding: 6px 0px;
+}
+input.ae09{
+    background-color: #3079ED;
+    color: white;
+    padding: 5px 8px;
+    font-size: 11px;
+}
+a{
+    text-decoration: none;
+}
