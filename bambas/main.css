@@ -1,6 +1,56 @@
+body{
+    max-width: 1920px;
+    height: auto;
+}
+
 #esquina{
     background-image: url(zapatillas/megasprite.png);
-    width: 26vh;
+    width: 33vh;
     height: 24px;
     background-position: -50px 0px;
+}
+
+.bamba4k{
+    background-image: url(zapatillas/G14822_F_B2CCat_1.jpg);
+    width: 58vh;
+    height: 57vh;
+    margin-top: 30px;
+    background-position: 4px -1px;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: start;
+}
+.titulo{
+    color: blue;
+    font-family: sans-serif;
+}
+
+.adidas{
+    background-image: url(zapatillas/megasprite.png);
+    width: 55px;
+    height: 42px;
+    background-position: 252px -167px;
+    padding: 1px;
+    margin: 1px;
+}
+.bolitaroja{
+    background-image: url(zapatillas/megasprite.png);
+    width: 256px;
+    height: 13px;
+    background-position: -8px -285px;
+    
+}
+.recuadro1{
+    width: 27rem;
+    padding: 2px;
+    margin: 2px;
+    border: 1px solid;
+}
+.color {
+    display: inline-flex;
+}
+.h4 p{
+    display: inline;
 }
