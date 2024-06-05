@@ -8,62 +8,91 @@ body{
     background-repeat: no-repeat;
     width: 33vh;
     height: 24px;
+    margin: 1px;
+    padding: 0px;
     background-position: -50px 0px;
 }
 
-.bamba4k{
+#bamba{
     background-image: url(zapatillas/G14822_F_B2CCat_1.jpg);
     background-repeat: no-repeat;
     width: 58vh;
     height: 57vh;
-    margin-top: 30px;
+    margin: 30px 1px 1px 1px;
+    padding: 1px;
     background-position: 4px -1px;
+    display: flex;
 }
+
 
 .flexbox{
     display: flex;
     justify-content: start;
 }
-.titulo{
+#titulo{
+    margin-top: 20px;
+    padding: 1px;
+    
+}
+h1.linea0{
+    width: 25rem;
     color: black;
     font-family: sans-serif;
+    margin: 2px;
 }
-
 .adidas{
     background-image: url(zapatillas/megasprite.png);
+    background-position: 252px -167px;
     width: 55px;
     height: 42px;
-    background-position: 252px -167px;
     padding: 1px;
-    margin: 1px;
+    margin-left: 23rem;
+    margin-top: -30px;
+    position: absolute;
 }
-.bolitaroja{
+#rojo.cuadro1{
+    margin-left: 2rem;
+}
+#rojo{
     background-image: url(zapatillas/megasprite.png);
     width: 256px;
     height: 13px;
     background-position: -8px -285px;
-    
 }
-.recuadro1{
+p.linea1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    margin-left: 10px;
+}
+#cuadro2{
     width: 27rem;
     padding: 2px;
-    margin: 2px;
+    margin: 1rem 1px 1px 1px;
     border: 1px solid;
 }
-.color {
-    display: inline-flex;
+p.linea2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
 }
-.h4 p{
-    display: inline;
+.dropdown{
+    position: relative;
+    display: inline-block;
 }
-.caja{
+.dropbtn{
+    background-color: black;
+    padding: 1px;
+
+}
+.seleccionar{
+    width: 30px;
+    height: 16px;
     background-image: url(zapatillas/megasprite.png);
-    background-color: white;
-    border: 1px solid grey;
-    width: 10px;
-    height: 35px;
+    background-position: -360px -25px;
 }
-
-.rojo{
-
+.contenido{
+    
+}
+.option1{
+    background-image: url(zapatillas/megasprite.png);
+    background-position: -360px -25px;
 }
