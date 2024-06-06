@@ -32,7 +32,7 @@ body{
 #titulo{
     margin-top: 20px;
     padding: 1px;
-    
+
 }
 h1.linea0{
     width: 25rem;
@@ -71,10 +71,13 @@ p.linea1{
     border: 1px solid;
 }
 p.linea2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  margin-left: 22px;
+  margin-bottom: -5px;
+  padding: 16px 0 0 0;
 }
-.dropdown{
+/* .dropdown{
     position: relative;
     display: inline-block;
 }
@@ -90,9 +93,49 @@ p.linea2{
     background-position: -360px -25px;
 }
 .contenido{
-    
+
 }
 .option1{
     background-image: url(zapatillas/megasprite.png);
     background-position: -360px -25px;
+} */
+.background-juntos{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+.background-juntos > div{
+  width: 60px;
+  height: 60px;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid grey;
+}
+.img1{
+  background-image: url('zapatillas/img1.jpg');
+  background-repeat: no-repeat;
+}
+.img2{
+  background-image: url('zapatillas/img2.jpg');
+  background-repeat: no-repeat;
+}
+.img3{
+  background-image: url('zapatillas/img3.jpg');
+  background-repeat: no-repeat;
+}
+.img4{
+  background-image: url('zapatillas/img4.jpg');
+  background-repeat: no-repeat;
+}
+.img5{
+  background-image: url('zapatillas/img5.jpg');
+  background-repeat: no-repeat;
+}
+p.linea3{
+  font-family: sans-serif;
+  color: blue;
+}
+.linea3.strong{
+  color: black;
 }
