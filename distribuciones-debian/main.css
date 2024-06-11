@@ -1,0 +1,26 @@
+body{
+  max-width: 100%;
+  max-height: auto;
+  font-family: verdana;
+}
+.parte1{
+  display: flex;
+  justify-content: start;
+}
+.icono-principal{
+  width: 100px;
+  height: 124px;
+}
+.menu-desplegable{
+  background-color: orange;
+  height: 3rem;
+  width: 100%;
+}
+.flex-ae{
+  display: flex;
+  justify-content: space-around;
+}
+.caja1{
+  border: 1px solid;
+  margin-left: 7rem;
+}
