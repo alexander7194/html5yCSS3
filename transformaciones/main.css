@@ -1,0 +1,77 @@
+body{
+  font-family: verdana;
+  font-size: 12px;
+  padding-top: 20px;
+}
+.canvas{
+  width: 750px;
+  height: 600px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  position: relative;
+  cursor: pointer;
+}
+.transition{
+  border-radius: 100px;
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  position: absolute;
+  top: 200px;
+  left: 275px;
+}
+.element{
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  position: absolute;
+  top: 275px;
+  left: 350px;
+}
+.one{
+  transition: all 1s ease 2s;
+  -webkit-transition: all 1 ease 2s;
+}
+.two{
+  transition: all 1s ease-in;
+  -webkit-transition: all 1 ease-in;
+}
+.three{
+  transition: all 1s ease-out;
+  -webkit-transition: all 1 ease-out;
+}
+.four{
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1 ease-in-out;
+}.five{
+  transition: all 1s linear;
+  -webkit-transition: all 1 linear;
+}.six{
+  transition: all 1s cubic-bezier(0.220, -0.255, 1.000, 0.395);
+  -webkit-transition: all 1 cubic-bezier(1000, -0.370, 0.000, 0.330);
+}
+.canvas:hover .one{
+  transform: translate(-350px, -275px);
+  -webkit-transform: translate(-350px, -275px);
+}
+.canvas:hover .two{
+  transform: translate(350px, -75px);
+  -webkit-transform: translate(350px, 275px);
+}
+.canvas:hover .three{
+  transform: translate(-350px, 275px);
+  -webkit-transform: translate(-350px, 275px);
+}
+.canvas:hover .four{
+  transform: translate(350px, -275px);
+  -webkit-transform: translate(350px, -275px);
+}
+.canvas:hover .five{
+  transform: translate(350px, 0px);
+  -webkit-transform: translate(350px, 0px);
+}
+.canvas:hover .six{
+  transform: translate(-350px, 0px);
+  -webkit-transform: translate(-350px, 0px);
+}
