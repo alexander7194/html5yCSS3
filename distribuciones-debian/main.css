@@ -12,15 +12,43 @@ body{
   height: 124px;
 }
 .menu-desplegable{
-  background-color: orange;
+  background-color: rgb(218, 69, 0);
   height: 3rem;
   width: 100%;
+  border-radius: 5px;
 }
 .flex-ae{
   display: flex;
   justify-content: space-around;
 }
-.caja1{
+li:hover{
+  background-color: rgb(228, 102, 0);
+  padding: 7px 13px;
+}
+.button{
+  background-color: rgb(255, 102, 0);
+  padding: 5px 13px;
+}
+.caja1{ 
   border: 1px solid;
   margin-left: 7rem;
+}
+h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 1px;
+  padding: 1px;
+}
+.mini-contenedor{
+  display: flex;
+  justify-content: space-around;
+}
+.li:hover .img1 {
+  transform: translate(-350px, -275px);
+  -webkit-transform: translate(-350px, 0px);
+}
+.ae1{
+  text-align: left;
+}
+.img1{
+  transition: all 1s ease; -webkit-transition: all 1s ease;
 }
