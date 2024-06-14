@@ -17,10 +17,10 @@ body{
   width: 100%;
   border-radius: 5px;
 }
-.flex-ae{
+/* .flex-ae{
   display: flex;
   justify-content: space-around;
-}
+} */
 li:hover{
   background-color: rgb(228, 102, 0);
   padding: 7px 13px;
@@ -36,9 +36,16 @@ li:hover{
 h1{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 1px;
-  padding: 1px;
+  padding: 1px; 
 }
-.mini-contenedor{
+.menu-desplegable{
+  background-color: rgb(218, 69, 0);
+  height: 3rem;
+  width: 100%;
+  border-radius: 5px; 
+}
+.flex-ae ul{
+  list-style-type: none;
   display: flex;
   justify-content: space-around;
 }
