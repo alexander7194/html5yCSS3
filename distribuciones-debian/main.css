@@ -5,57 +5,74 @@ body{
 }
 .parte1{
   display: flex;
-  justify-content: start;
 }
 .icono-principal{
   width: 100px;
   height: 124px;
 }
 .menu-desplegable{
-  background-color: rgb(218, 69, 0);
   height: 3rem;
   width: 100%;
-  border-radius: 5px;
 }
-/* .flex-ae{
+.flex-ae{
+  background-color: rgb(218, 69, 0);
+  border-radius: 5px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+}
+.flex-ae a{
+  padding: 10px 15px;
+}
+/* .flex-ae a.hover{
+  background-color: rgb(228, 102, 0);
+  padding: 10px 10px;
+} */
+.titu1:hover,
+.titu2:hover,
+.titu3:hover,
+.titu4:hover,
+.titu5:hover{
+  background-color: rgb(228, 102, 0);
+  padding: 14px 14px;
+}
+.parte2{
+  margin-top: -40px;
+  bottom:182px;opacity:1;width:276px; 
+  transition:1s left,1s width,1s opacity;
+}
+.ae1{
+  text-align: justify;
+  padding: 10px;
+}
+.img1{
+  margin-top: -36px;
+  /* transition: all 1s ease; -webkit-transition: all 1s ease; */
+}
+#Debian{
   display: flex;
   justify-content: space-around;
-} */
+}
 li:hover{
   background-color: rgb(228, 102, 0);
   padding: 7px 13px;
 }
-.button{
-  background-color: rgb(255, 102, 0);
-  padding: 5px 13px;
-}
 .caja1{ 
   border: 1px solid;
   margin-left: 7rem;
+  margin-right: 1rem;
 }
 h1{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 1px;
   padding: 1px; 
 }
-.menu-desplegable{
-  background-color: rgb(218, 69, 0);
-  height: 3rem;
-  width: 100%;
-  border-radius: 5px; 
+.titu1  #Debian{
+  bottom:182px;opacity:1;width:276px; 
+  transition:1s left,1s width,1s opacity;
 }
-.flex-ae ul{
-  list-style-type: none;
-  display: flex;
-  justify-content: space-around;
-}
-.li:hover .img1 {
-  transform: translate(-350px, -275px);
-  -webkit-transform: translate(-350px, 0px);
-}
-.ae1{
-  text-align: left;
-}
-.img1{
-  transition: all 1s ease; -webkit-transition: all 1s ease;
+ul li #Debian{
+  bottom:0px;opacity:0;width:152px; 
+  transition:1s left,1s width,1s opacity;
 }
