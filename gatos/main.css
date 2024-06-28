@@ -21,45 +21,69 @@
 }
 
 .caja-principal{
-    position: absolute;
+    position: fixed;
+    width: 75%;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-40%, -50%);
     /* display: flex;
     align-items: center;   */
 }
 
 .gato1:hover{   
-    transform: translateY(19rem);
+    transform: translateX(25rem);
+    animation: infinite 10s;
     border: 1px solid white;
 }
+/* .gato1::after{
+    transform-origin: 0% 100%;
+}
+.gato::before{
+    transform-origin: 100% 100%;
+} */
 .gato1{
-    -webkit-transition: 1s linear;
-    transition: 1s linear;
+    position: relative;
+    transition: 1s ease;
+    top: 0;
+    display: block;
+    float: inline-start;
 }
 .gato2:hover{
-    transform: translateX(25rem) translateY(50px);
+    transform: translateY(16rem);
     border: 1px solid white;
 }
 .gato2{
-    -webkit-transition: 1s linear;
-    transition: 1s linear;
+    top: 0;
+    position: relative;
+    transition: 1s ease;
+    display: block;
+}
+.gato::after{
+    transform-origin: 0% 100%;
+}
+.gato::before{
+    transform-origin: 100% 100%;
 }
 .gato3:hover{
-    transform: translateY(3rem);
+    transform: translateX(-25rem);
     border: 1px solid white;
 }
 .gato3{
-    -webkit-transition: 1s linear;
-    transition: 1s linear;
+    bottom: 0;
+    right: 13rem;
+    position: relative;
+    transition: 1s ease;
+    display: block;
+    float: inline-end;
 }
 .gato4:hover{
-    transform: translateX(25rem) translateY(-13rem);
+    transform: translateY(-16rem);
     border: 1px solid white;
 }
 .gato4{
-    -webkit-transition: 1s linear;
-    transition: 1s linear;
+    position: relative;
+    transition: 1s ease;
+    display: block;
 }
 
 
