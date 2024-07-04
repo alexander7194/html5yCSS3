@@ -1,12 +1,13 @@
-/* body{
-    max-width: 100%;
-    min-height: 100vh;
-} */
+body{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
 /* #wrapper{
     max-width: 100%;
     min-height: 100vh;
 } */
-.contenedor-principal{
+/* .contenedor-principal{
     position: relative;
     display: flex;
     justify-content: center;
@@ -26,30 +27,25 @@
     top: 50%;
     left: 50%;
     transform: translate(-40%, -50%);
-    /* display: flex;
-    align-items: center;   */
+     display: flex;
+    align-items: center;   
 }
 
 .gato1:hover{   
-    transform: translateX(25rem);
-    animation: infinite 10s;
+     transform: translateX(25rem);
+    animation: infinite 10s; 
     border: 1px solid white;
 }
-/* .gato1::after{
-    transform-origin: 0% 100%;
-}
-.gato::before{
-    transform-origin: 100% 100%;
-} */
+
 .gato1{
-    position: relative;
-    transition: 1s ease;
+     position: relative;
+    transition: 1s ease; 
     top: 0;
     display: block;
     float: inline-start;
 }
 .gato2:hover{
-    transform: translateY(16rem);
+     transform: translateY(16rem); 
     border: 1px solid white;
 }
 .gato2{
@@ -58,14 +54,9 @@
     transition: 1s ease;
     display: block;
 }
-.gato::after{
-    transform-origin: 0% 100%;
-}
-.gato::before{
-    transform-origin: 100% 100%;
-}
+
 .gato3:hover{
-    transform: translateX(-25rem);
+     transform: translateX(-25rem); 
     border: 1px solid white;
 }
 .gato3{
@@ -77,13 +68,117 @@
     float: inline-end;
 }
 .gato4:hover{
-    transform: translateY(-16rem);
+     transform: translateY(-16rem); 
     border: 1px solid white;
 }
 .gato4{
     position: relative;
-    transition: 1s ease;
+     transition: 1s ease; 
     display: block;
+} */
+
+.fondo{
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    margin: 0;
 }
 
+.contenedor{
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    
+}
 
+img.gato1{
+    position: absolute;
+    border: 1px solid white;
+    width: auto;
+    height: auto;
+    top: 188px;
+    left: 12rem;
+    transform: translate(50%, 75%);
+    display: block;
+    animation: derecha 5s infinite;
+}
+@keyframes derecha{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(38rem);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+img.gato2{
+    position: absolute;
+    border: 1px solid white;
+    width: auto;
+    height: auto;
+    left: 50rem;
+    top: 188px;
+    transform: translate(200%, 75%);
+    display: block;
+    animation: abajo 5s infinite;
+}
+@keyframes abajo{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(312px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+img.gato3{
+    position: absolute;
+    border: 1px solid white;
+    width: auto;    
+    height: auto;
+    left: 12rem;
+    top: 500px;
+    transform: translate(50%, 200%);
+    display: block;
+    animation: arriba 5s infinite;
+}
+@keyframes arriba{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-311px);    
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+img.gato4{
+    position: absolute;
+    border: 1px solid white;
+    width: auto;
+    height: auto;
+    left: 798px;
+    top: 500px;
+    transform: translate(199%, 200%);
+    display: block;
+    animation: izquierda 5s infinite;
+}
+@keyframes izquierda {
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(-38rem);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
