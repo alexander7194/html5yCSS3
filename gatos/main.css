@@ -3,79 +3,37 @@ body{
     padding: 0;
     overflow-y: hidden;
 }
-/* #wrapper{
-    max-width: 100%;
-    min-height: 100vh;
-} */
-/* .contenedor-principal{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.portada{
-    width: 102%;
-    height: auto;
-    display: block;
-    object-fit: cover;
-    margin: -8px;
-}
 
-.caja-principal{
-    position: fixed;
-    width: 75%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-40%, -50%);
-     display: flex;
-    align-items: center;   
+@media (min-width: 1920px) 
+{
+    .contenedor {
+        position: relative;
+        display: inline-block;
+        margin: 15px;
+        bottom: 0px;
+        left: 120px;
+    }
 }
-
-.gato1:hover{   
-     transform: translateX(25rem);
-    animation: infinite 10s; 
-    border: 1px solid white;
+@media (max-width: 1440px) 
+{
+    .contenedor {
+        position: relative;
+        display: inline-block;
+        margin: 15px;
+        bottom: 95px;
+        left: 20px;
+    }
 }
-
-.gato1{
-     position: relative;
-    transition: 1s ease; 
-    top: 0;
-    display: block;
-    float: inline-start;
+@media (max-width: 1280px) 
+{
+    .contenedor {
+        position: relative;
+        display: inline-block;
+        margin: 15px;
+        bottom: 130px;
+        left: -50px;
+    }
 }
-.gato2:hover{
-     transform: translateY(16rem); 
-    border: 1px solid white;
-}
-.gato2{
-    top: 0;
-    position: relative;
-    transition: 1s ease;
-    display: block;
-}
-
-.gato3:hover{
-     transform: translateX(-25rem); 
-    border: 1px solid white;
-}
-.gato3{
-    bottom: 0;
-    right: 13rem;
-    position: relative;
-    transition: 1s ease;
-    display: block;
-    float: inline-end;
-}
-.gato4:hover{
-     transform: translateY(-16rem); 
-    border: 1px solid white;
-}
-.gato4{
-    position: relative;
-     transition: 1s ease; 
-    display: block;
-} */
 
 .fondo{
     position: absolute;
@@ -83,13 +41,13 @@ body{
     object-fit: cover;
     margin: 0;
 }
-
-.contenedor{
+/* Contenedor de previsualizar primer intento 
+  .contenedor{
     position: relative;
     display: inline-block;
     margin: 15px;
-    
-}
+    bottom: 100px;
+} */
 
 img.gato1{
     position: absolute;
