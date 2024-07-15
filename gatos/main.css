@@ -20,7 +20,7 @@ body{
         position: relative;
         display: inline-block;
         margin: 15px;
-        bottom: 95px;
+        bottom: 98px;
         left: 20px;
     }
 }
@@ -41,13 +41,6 @@ body{
     object-fit: cover;
     margin: 0;
 }
-/* Contenedor de previsualizar primer intento 
-  .contenedor{
-    position: relative;
-    display: inline-block;
-    margin: 15px;
-    bottom: 100px;
-} */
 
 img.gato1{
     position: absolute;
@@ -58,20 +51,19 @@ img.gato1{
     left: 12rem;
     transform: translate(50%, 75%);
     display: block;
-    animation: derecha 5s infinite;
+    animation: derecha-rotacion 4s linear 4s infinite;
 }
-@keyframes derecha{
-    0%{
-        transform: translateX(0);
+@keyframes derecha-rotacion {
+    0% {
+        transform: translateX(0) rotate(0deg);
     }
-    50%{
-        transform: translateX(38rem);
+    50% {
+        transform: translateX(38rem) rotate(180deg);
     }
-    100%{
-        transform: translateX(0);
+    100% {
+        transform: translateX(0) rotate(360deg);
     }
 }
-
 img.gato2{
     position: absolute;
     border: 1px solid white;
@@ -81,17 +73,17 @@ img.gato2{
     top: 188px;
     transform: translate(200%, 75%);
     display: block;
-    animation: abajo 5s infinite;
+    animation: abajo-rotacion 4s linear 4s infinite;
 }
-@keyframes abajo{
+@keyframes abajo-rotacion{
     0%{
-        transform: translateY(0);
+        transform: translateY(0) rotate(0deg);
     }
     50%{
-        transform: translateY(312px);
+        transform: translateY(312px) rotate(180deg);
     }
     100%{
-        transform: translateY(0);
+        transform: translateY(0) rotate(360deg);
     }
 }
 
@@ -104,17 +96,17 @@ img.gato3{
     top: 500px;
     transform: translate(50%, 200%);
     display: block;
-    animation: arriba 5s infinite;
+    animation: arriba-rotacion 4s linear 4s infinite;
 }
-@keyframes arriba{
+@keyframes arriba-rotacion{
     0%{
-        transform: translateY(0);
+        transform: translateY(0) rotate(0deg);
     }
     50%{
-        transform: translateY(-311px);    
+        transform: translateY(-311px) rotate(180deg);    
     }
     100%{
-        transform: translateY(0);
+        transform: translateY(0) rotate(360deg);
     }
 }
 
@@ -127,16 +119,16 @@ img.gato4{
     top: 500px;
     transform: translate(199%, 200%);
     display: block;
-    animation: izquierda 5s infinite;
+    animation: izquierda-rotacion 4s linear 4s infinite;
 }
-@keyframes izquierda {
+@keyframes izquierda-rotacion {
     0%{
-        transform: translateX(0);
+        transform: translateX(0) rotate(0deg);
     }
     50%{
-        transform: translateX(-38rem);
+        transform: translateX(-38rem) rotate(180deg);
     }
     100%{
-        transform: translateX(0);
+        transform: translateX(0) rotate(360deg);
     }
 }
