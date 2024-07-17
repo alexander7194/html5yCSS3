@@ -1,0 +1,109 @@
+#wrapper{
+    max-width: 100%;
+    min-height: 100vh;
+}
+@media (min-width: 1920px) 
+{
+    .contenedor {
+        position: relative;
+        display: inline-block;
+        margin: 15px;
+        bottom: 0px;
+        left: 120px;
+    }
+}
+
+@media (max-width: 1440px) 
+{
+    .contenedor {
+        position: relative;
+        display: inline-block;
+        margin: 15px;
+        bottom: 95px;
+        left: 20px;
+    }
+}
+
+@media (max-width: 1280px) 
+{
+    .contenedor {
+        position: relative;
+        display: inline-block;
+        margin: 15px;
+        bottom: 130px;
+        left: -50px;
+    }
+}
+
+h1{
+    background: linear-gradient(to right, rgb(63, 63, 63), rgb(250, 218, 38));
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    font-size: 4rem;
+    color: white;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@keyframes gradient{
+    0%{
+        background-position: 0% 50%;
+    }
+    50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.menu ul.sub-menu{
+    background-color: black;
+    width: auto;
+    padding: 1rem;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.slide{
+    background-color: grey;
+    width: 21%;
+}
+
+h4{
+    background-color: yellow;
+    margin: 0;
+    font-size: 2rem;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul.barra-lateral{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+li{
+    list-style-type: none;
+    font-size: 1.4rem;
+    color: white;
+    
+}
+ 
+
+
