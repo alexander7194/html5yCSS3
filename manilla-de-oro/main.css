@@ -1,7 +1,11 @@
+/* body{
+    background-color:rgb(156, 120, 0);
+} */
 #wrapper{
     max-width: 100%;
-    min-height: 100vh;
+    min-height: 93vh;
 }
+
 @media (min-width: 1920px) 
 {
     .contenedor {
@@ -14,6 +18,17 @@
 }
 
 @media (max-width: 1440px) 
+{
+    .contenedor {
+        position: relative;
+        display: inline-block;
+        margin: 15px;
+        bottom: 95px;
+        left: 20px;
+    }
+}
+
+@media (max-width: 1366px) 
 {
     .contenedor {
         position: relative;
@@ -62,11 +77,13 @@ h1{
 		background-position: 0% 50%;
 	}
 }
-
+ul.sub-menu li:hover{
+    background-color: grey;
+}
 .menu ul.sub-menu{
     background-color: black;
     width: auto;
-    padding: 1rem;
+    padding: 0;
     margin: 0;
     display: flex;
     justify-content: space-around;
@@ -80,30 +97,132 @@ a {
 
 .slide{
     background-color: grey;
-    width: 21%;
+    width: 16%;
+    float: right;
 }
 
 h4{
     background-color: yellow;
     margin: 0;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: "Bona Nova SC", serif;
     font-weight: 400;
     font-style: normal;
+    display: flex;
+    justify-content: center;
 }
 
 ul.barra-lateral{
     display: flex;
     align-items: center;
+    width: auto;
     flex-direction: column;
+    padding: 0;
+    margin: 0;
+    border: yellow 1px solid;
 }
 
 li{
     list-style-type: none;
     font-size: 1.4rem;
     color: white;
+    padding: 12px;
     
 }
  
+.catalogo{
+    position: relative;
+    width: 84%;
+    margin: 0;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+}
 
+.reloj1{
+    width: 20%;
+    margin: 2px;
+    padding: 0px;
+}
 
+.imagen1{
+    width: 240px;
+    height: auto;
+    border: 1px inset yellow;
+}
+
+.reloj2{
+    width: 20%;
+    margin: 2px;
+    padding: 0px;
+}
+
+.imagen2{
+    width: 240px;
+    height: auto;
+    border: 1px inset yellow;
+}
+
+.reloj3{
+    width: 20%;
+    margin: 2px;
+    padding: 0px;
+}
+
+.imagen3{
+    width: 240px;
+    height: auto;
+    border: 1px inset yellow;
+}
+
+p{
+    border: 1px solid black;
+}
+.description1{
+    position: relative;
+    width: 70%;
+    padding: 0;
+    margin: 0;
+    font-size: 19px;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.description2{
+    width: 67%;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.description3{
+    width: 63%;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer{
+    position: relative;
+    background-color: grey;
+    width: 83.9%;
+    margin: 0px;
+    padding: 1px;
+    display: flex;
+}
+
+p.pie-de-pagina{
+    font-size: 18px;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
