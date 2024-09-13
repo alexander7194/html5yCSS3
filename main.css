@@ -1,0 +1,163 @@
+#wrapper{
+    max-width: 100%;
+    min-height: 100vh;
+}
+
+.fondo1{
+    position: fixed;
+    background-size: contain;
+    width: 1440px;
+    height: 773px;
+}
+
+.contenido1{
+    display: flex;
+    justify-content: space-between;
+}
+
+img.icono-principal{
+    width: 95px;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: cornflowerblue;
+    background: linear-gradient(to left, rgb(248, 248, 18), rgb(252, 13, 13));
+    background-size: 200% 200%;
+    animation: gradient 4s ease infinite;
+    font-size: 5rem;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+@keyframes gradient{
+    0%{
+        background-position: 0% 50%;
+    }
+    50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.contenedor-junto{
+    flex: auto;
+    
+}
+
+.menu{
+    background-color: grey;
+    padding: 10px;
+}
+
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    font-size: 20px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#idioma{
+    position: relative;
+    float: right;
+    
+}
+
+.catalogo{
+    margin: 0;
+    padding: 0;
+}
+
+.fondo-catalogo{
+    position: absolute;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor-catalogo{
+    width: auto;
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
+
+.imagenes-cata{
+    position: relative;
+    /* display: flex;
+    justify-content: center;
+    align-content: space-around; */
+    padding: 0;
+    margin: 0;
+}
+
+.flex1{
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: 3rem;
+    padding-top: 3rem;
+}
+img.orden1{
+    padding: 0;
+    margin: 0;
+    width: 200px;
+}
+img.orden2{
+    padding: 0;
+    margin: 0;
+    width: 200px;
+}
+
+
+img.orden3{
+    padding: 0;
+    margin: 0;
+    width: 200px;
+}
+
+.flex2{
+    padding-right: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+img.orden4{
+    padding: 0;
+    margin: 0;
+    width: 200px;
+}
+img.orden5{
+    padding: 0;
+    margin: 0;
+    width: 200px;
+}img.orden6{
+    padding: 0;
+    margin: 0;
+    width: 200px;
+}
+p{
+    background-color: white;
+}
+
+
