@@ -1,8 +1,35 @@
 #wrapper{
-    height: auto;
     max-width: 1000px;
     margin: 0 auto;
 }
+/* #body{
+    max-width: 150vh;
+} */
+.contacto{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.curva{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+.titulo-nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.navegacion .orden{
+    display: flex;
+    justify-content: space-between;
+    width: 70vh;
+}
+
+
 
 
 
