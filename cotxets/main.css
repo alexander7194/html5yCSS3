@@ -2,14 +2,24 @@
     max-width: 1000px;
     margin: 0 auto;
 }
-/* #body{
-    max-width: 150vh;
-} */
 .contacto{
     display: flex;
     justify-content: space-between;
     background-color: aliceblue;
+    padding: 5px;
 }
+.correo{
+    display: flex;
+    justify-content: space-around;
+}
+.icono-correo{
+    width: 15px;
+    margin-right: 5px;
+}
+.enlace-correo{
+    width: min-content;
+}
+
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
@@ -18,15 +28,74 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px;
 }
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .titulo-nav{
     background-color: white;
     display: flex;
     justify-content: space-between;
+    padding: 20px;
+}
+.navegacion{
+    width: 62vh;
 }
 .navegacion .orden{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 70vh;
+}
+ul.orden{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+.fondo{
+    background-size: cover;
+}
+img.mini-coche{
+    max-width: 1000px;
+    position: absolute;
+}
+.contenedor-fondo{
+    max-width: 1000px;
+    overflow: hidden;
+}
+.background-principal{
+    display: flex;
+    position: relative;
+    background-color: rgb(255 255 255 / 40%);
+    width: 50vh;
+    left: 6vh;
+    padding-top: 6vh;
+    padding-bottom: 148px;
+}
+.mini-titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    color: red;
+}
+.parrafo1{
+    font-size: 16px;
+    color: black;
+    padding-top: 20px;
+}
+
+.boton-rojo1{
+    position: relative;
+    background-color: red;
+    padding: 10px;
+}
+.background-lima{
+    position: relative;
+    background-color: rgb(0, 247, 255);
+}
+.mini-cuadrado{
+    max-width: 1000px;
+    overflow: hidden;
 }
 
 
@@ -86,9 +155,5 @@ h1{
 
 
 
-/* 
-Linea horizontal negra
-hr{
-    color: black;
-    width: 5rem;
-} */
+
+
