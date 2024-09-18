@@ -1,4 +1,5 @@
 #wrapper{
+    /* max-height: max-content; */
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -57,6 +58,8 @@ ul.orden{
 img.mini-coche{
     max-width: 1000px;
     position: absolute;
+    margin: 0;
+    padding: 0;
 }
 .contenedor-fondo{
     max-width: 1000px;
@@ -69,7 +72,7 @@ img.mini-coche{
     width: 50vh;
     left: 6vh;
     padding-top: 6vh;
-    padding-bottom: 148px;
+    padding-bottom: 120px;
 }
 .mini-titulo{
     display: flex;
@@ -82,21 +85,213 @@ img.mini-coche{
     font-size: 16px;
     color: black;
     padding-top: 20px;
+    padding-left: 15px;
 }
-
-.boton-rojo1{
+.button1{
     position: relative;
+    left: 14vh;
+}
+.boton-rojo1{
     background-color: red;
     padding: 10px;
+    color: white;
 }
+
 .background-lima{
     position: relative;
+    padding: 15px;
     background-color: rgb(0, 247, 255);
+    display: flex;
+    justify-content: space-around;
 }
 .mini-cuadrado{
-    max-width: 1000px;
-    overflow: hidden;
+    width: 80vh;
+    padding: 1px;
+    margin: 1px;
 }
+p.parte1{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+p.parte1 b{
+    font-weight: 600;
+}
+
+p.parte2{
+    font-size: 12px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+/* .button2{
+    padding-top: 6px;
+} */
+.boton-rojo2{
+    background-color: red;
+    padding: 10px;
+    color: white;
+}
+
+.titulo2{
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo2 h4 {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.titulo2 b{
+    font-weight: 600;
+}
+
+.background-celeste{
+    padding: 20px;
+    background-color: rgba(105, 242, 247, 0.541);
+}
+.parrafo2{
+    position: relative;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(60, 179, 184);
+}
+
+.flex4{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    width: 1000px;
+}
+
+.cuadro1{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cuadro1 h5{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+.cuadro1 p{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 30vh;
+    line-height: 20px;
+}
+
+.cuadro2{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cuadro2 h5{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+.cuadro2 p{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 30vh;
+    line-height: 20px;
+}
+
+.cuadro3{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cuadro3 h5{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+.cuadro3 p{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 30vh;
+    line-height: 20px;
+}
+.cuadro4{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cuadro4 h5{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+.cuadro4 p{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 30vh;
+    line-height: 20px;
+} 
+
+.icono-repetido{
+    display: flex;
+    align-items: center;
+}
+
+div.backgrounds-cotxets{
+    width: 1000px;
+    padding: 30px;
+    margin: 0;
+    background-color: peachpuff;
+}
+
+h2.cotxets1{
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div.coches{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.fila1{
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+}
+
+.fila1 img{
+    width: 32vh;
+}
+
+div.coches p{
+    text-align: center;
+    background-color: grey;
+    padding: 5px;
+    margin: 0;
+
+}
+.fila2{
+    display: flex;
+    width: 1000px;
+    padding-top: 5px;
+    justify-content: space-around;
+
+}
+.fila2 img{
+    width: 32vh;
+}
+
 
 
 
