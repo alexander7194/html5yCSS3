@@ -33,6 +33,10 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: min-content;
+}
+.primer-camion1{
+    margin-right: 30vh;
 }
 .titulo-nav{
     background-color: white;
@@ -165,7 +169,7 @@ p.parte2{
 .flex4{
     display: flex;
     justify-content: space-evenly;
-    padding: 30px;
+    padding: 30px 0px 30px 0px;
     width: 1000px;
 }
 
@@ -183,7 +187,7 @@ p.parte2{
 .cuadro1 p{
     font-size: 12px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 30vh;
+    width:25vh;
     line-height: 20px;
 }
 
@@ -201,7 +205,7 @@ p.parte2{
 .cuadro2 p{
     font-size: 12px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 30vh;
+    width: 25vh;
     line-height: 20px;
 }
 
@@ -220,7 +224,7 @@ p.parte2{
 .cuadro3 p{
     font-size: 12px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 30vh;
+    width: 25vh;
     line-height: 20px;
 }
 .cuadro4{
@@ -237,7 +241,7 @@ p.parte2{
 .cuadro4 p{
     font-size: 12px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 30vh;
+    width: 25vh;
     line-height: 20px;
 } 
 
@@ -248,9 +252,9 @@ p.parte2{
 
 div.backgrounds-cotxets{
     width: 1000px;
-    padding: 30px;
+    padding: 30px 0px 30px 0px;
     margin: 0;
-    background-color: peachpuff;
+    background-color: #d3d3d3;;
 }
 
 h2.cotxets1{
@@ -271,7 +275,7 @@ div.coches{
 }
 
 .fila1 img{
-    width: 32vh;
+    width: 26vh;
 }
 
 div.coches p{
@@ -289,16 +293,214 @@ div.coches p{
 
 }
 .fila2 img{
-    width: 32vh;
+    width: 26vh;
 }
 
+.recuadro-reseña{
+    background-color: white;
+    width: 1000px;
+    padding: 30px 0px 30px 0px;
+    display: flex;
+    justify-content: space-around;
+}
 
+.columna1{
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
 
+.columna1 h6{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin-bottom: 10px;
+}
 
+form.alguna-duda div{
+    width: 500px;
+    margin-bottom: 10px;
+}
 
+#nombre{
+    box-sizing: content-box;
+    padding: 10px 0px 10px 0px;
+    width: 454px;
+}
 
+#asunto{
+    box-sizing: content-box;
+    padding: 10px 0px 10px 0px;
+    width: 454px;
+}
 
+#opinion{
+    box-sizing: content-box;
+    height: 100px;
+    width: 454px;
+}
 
+.button3{
+    display: flex;
+    justify-content: end;
+    margin-right: 55px;
+    
+}
+
+.button-envia{
+    background-color: red;
+    color: white;
+    padding: 8px 20px;
+}
+
+.columna2 h6{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.background-gris{
+    background-color: #d3d3d3;;
+    padding: 22px 15px;
+    line-height: 20px;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.primer-parrafo{
+    margin-bottom: 5px;
+}
+
+.pequeño-recuadro{
+    padding: 15px;
+    display: flex;
+}
+
+.letra-icono{
+    margin-left: 30px;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    line-height: 18px;
+}
+
+hr.gris{
+    background-color: grey;
+    height: 10px;
+}
+
+.pie-de-pagina{
+    width: 1000px;
+    background-color: black;
+    padding: 20px 10px ;
+}
+hr.linea-negra{
+    height: 1px;
+   color: white;
+}
+.background-black{
+    display: flex;
+}
+
+.primera-columna{
+    padding: 5px;
+}
+
+.segunda-columna{
+    padding: 5px;
+}
+
+.tercera-columna{
+    padding: 5px;
+}
+
+h3.pretitulo1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    width: 25vh;
+    margin-bottom: 20px;
+    color: white;
+} 
+
+h3.pretitulo2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    width: 25vh;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.icono-camion2{
+   display: flex;
+}
+h3.pretitulo3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    width: min-content;
+    margin-bottom: 10px;
+    color: white;
+}
+h3.pretitulo4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    width: 25vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+p.sitio{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+ul.informacion{
+    text-align: left;
+    margin-left: 20px;
+}
+
+li.iguales{
+    margin-left: 20px;
+    font-size: 14px;
+    color: white;
+}
+
+.icono1,
+.icono2,
+.icono3,
+.icono4{
+    font-size: 14px;
+    color: white;
+}
+
+ul.todos-iguales{
+    list-style-type: disc;
+    list-style-type: square;
+    margin-left: 30px;
+    color: white;
+    line-height: 20px;
+}
+
+a{
+   text-decoration: none;
+   color: white;
+}
+p.parrafo3{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.ultima-fila{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 
 

@@ -23,6 +23,9 @@
                 <h1>EspaiTemplate </h1>
                     <p class="curva"> per John Doe</p>
             </div>
+            <div class="primer-camion1">
+                <img src="carpeta-iconos/icono-camion.png" alt="camion" width="30px">
+            </div>
             <nav class="navegacion">
                 <ul class="orden">
                     <li>Unici</li>
@@ -141,8 +144,8 @@
         </div>
         <div class="recuadro-reseña">
             <div class="columna1">
-                <h6>Alguna pregunta?</h6>
-                <form action="/action.php" method="post">
+                <h6>¿Alguna pregunta?</h6>
+                <form action="/action.php" class="alguna-duda" method="post">
                     <div class="nombre">
                         <label for="nombre" class="opinion1"></label>
                         <input type="text" id="nombre" name="nombre" placeholder="Nombre"> 
@@ -158,14 +161,17 @@
                     </div>
                 </form>
                 <div class="button3">
-                    <p class="button-envia">Envia</p>
+                    <input type="button" class="button-envia" value="Envia">
                 </div>
             </div>
             <div class="columna2">
                 <h6>Que opinen els nostres compradors</h6>
                 <div class="background-gris">
-                    <p class="letra-torcida">Fortuna saepe incerta est, et homines vitam suam in spe et timore agunt. Sapientes autem animam suam tranquillam custodiunt, quoniam sciant omnia mutabilia esse. 
-                        Virtus est maxima divitia, nec opes nec honores homini veram laetitiam afferunt. Amor patriae et communitatis est fundamentum bonorum operum. Sine justitia, nihil stabile esse potest; iniustitia vero societatem in ruinam trahit. Ergo, diligenter vitam nostram moderari debemus, prudenter agendo et recte cogitando, ut rectam viam in omnibus rebus sequamur atque veritatem quaeramus.
+                    <p class="primer-parrafo">
+                        Fortuna saepe incerta est, et homines vitam suam in spe et timore agunt. Sapientes autem animam suam tranquillam custodiunt, quoniam sciant omnia mutabilia esse, virtus est maxima divitia, nec opes nec honores homini veram.
+                    </p>
+                    <p class="segundo-parrafo">
+                        Laetitiam afferunt. Amor patriae et communitatis est fundamentum bonorum operum. Sine justitia, nihil stabile esse potest; iniustitia vero societatem in ruinam trahit. Ergo, diligenter vitam nostram moderari debemus, prudenter agendo et recte cogitando, ut rectam viam in omnibus rebus sequamur atque veritatem quaeramus.
                     </p>
                 </div>
                 <div class="pequeño-recuadro">
@@ -177,28 +183,38 @@
                 </div>
             </div>
         </div>
-
-        <footer class="pie de pagina">
+        <hr class="gris">
+        <footer class="pie-de-pagina">
 
             <div class="background-black">
                 <div class="primera-columna">
-                    <h3 class="pretitulo1">
-                        Localitza'ns
-                    </h3>
+                    <h3 class="pretitulo1">Localitza'ns</h3>
                     <p class="sitio">Direccio</p>
                     <ul class="informacion">
-                        <li class="icono1">Escola Espai</li>
-                        <li>Carrer Entença 182</li>
-                        <li>08029 Barcelona</li>
-                        <li>Catalunya(Barcelona)</li>
-                        <li class="icono2">+34-931635353</li>
-                        <li class="icono3">info@espai.es</li>
-                        <li class="icono4">http://wwww.espai.es</li>
+                        <li class="icono1">
+                            <img src="carpeta-iconos/icono-ubicacion.png" alt="Escola Espai" >
+                            Escola Espai
+                        </li>
+                        <li class="iguales"> Carrer Entença 182</li>
+                        <li class="iguales"> 08029 Barcelona</li>
+                        <li class="iguales"> Catalunya(Barcelona)</li>
+                        <li class="icono2">
+                            <img src="carpeta-iconos/icono-telefono.png" alt="fijo">
+                            +34-931635353
+                        </li>
+                        <li class="icono3">
+                            <img src="carpeta-iconos/icono-mensaje.png" alt="Correo">
+                            info@espai.es
+                        </li>
+                        <li class="icono4">
+                            <img src="carpeta-iconos/icono-enlace.png" alt="Pagina web">
+                            <a href="#">http://wwww.espai.es</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="segunda-columna">
                     <h3 class="pretitulo2">Marques de cotxets</h3>
-                        <ul>
+                        <ul class="todos-iguales">
                             <li>Renault</li>
                             <li>Volkswagen</li>
                             <li>Peugeot</li>
@@ -208,7 +224,10 @@
                         </ul>
                 </div>
                 <div class="tercera-columna">
-                    <h3 class="pretitulo3">EspaiTemplate</h3>
+                    <div class="icono-camion2">
+                        <h3 class="pretitulo3">EspaiTemplate</h3>
+                        <img src="carpeta-iconos/icono-camion.png" alt="camion" width="30px">
+                    </div>
                     <p class="parrafo3">
                         Vita est brevis et tempus fugit. Sapientia vera in animo firmo et sereno consistit. Honestas et virtus semper laudantur, dum cupiditas et superbia animos vulnerant. Amicitia sincera magnum solacium praebet, et sine ea vita tristis est.
                     </p>
@@ -218,11 +237,14 @@
                     <img src="a03.jpg" alt="icono3">
                     <img src="a04.jpg" alt="icono4">
                 </div>
-                <div class="ultima-fila">
-                    <p>&copy; 2023 - <a href="">http://campus.espai.es </a>:Tots els drets reservats
-                    </p>
-                    <p>Disenyat i desevolupat per <a href="#">Espai Barcelona</a></p>
-                </div>
+            </div>
+            <hr class="linea-negra">
+            <div class="ultima-fila">
+                <p>&copy; 2023 - 
+                    <a href="#" class="primer-enlace">http://campus.espai.es </a>
+                    :Tots els drets reservats
+                </p>
+                <p>Disenyat i desevolupat per <a href="#">Espai Barcelona</a></p>
             </div>
         </footer>
     </div>
