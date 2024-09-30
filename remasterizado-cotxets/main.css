@@ -2,6 +2,40 @@
     max-width: 1000px;
     margin: 0 auto;
 }
+
+@media (min-width: 1920px) 
+{
+    .contenedor {
+        position: relative;
+        display: inline-block;
+        margin: 15px;
+        bottom: 0px;
+        left: 120px;
+    }
+}
+
+@media (max-width: 1440px) 
+{
+    .contenedor {
+        position: relative;
+        display: inline-block;
+        margin: 15px;
+        bottom: 95px;
+        left: 20px;
+    }
+}
+
+@media (max-width: 1280px) 
+{
+    .contenedor {
+        position: relative;
+        display: inline-block;
+        margin: 15px;
+        bottom: 130px;
+        left: -50px;
+    }
+}
+
 /* Principio parte 1 */
 #header-top{
 background-color: aliceblue;
@@ -68,6 +102,7 @@ p.enlace-correo{
 }
 /* Final parte 2 */
 
+/* Principio parte 3 */
 #contenido-principal{
     padding: 0;
 }
@@ -78,14 +113,135 @@ p.enlace-correo{
 }
 
 #contenido-principal .centro-coche{
-    width: 160vh;
+    width: 220vh;
     position: relative;
 }
 
 .background-blanco{
     position: absolute;
     z-index: 1;
+    background-color: rgb(255 255 255 / 40%);
+    height: 555px;
+    width: 370px;
+    left: 122px;
+}
+
+.mini-titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: #d50000;
+}
+
+.parrafo1{
+    margin: 0 10px;
+}
+
+.button1{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 7vh;
+    margin-top: 10px;
+}
+
+.button1 .boton-rojo1{
     background-color: red;
-    height: 468px;
-    width: 469px;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+/* Final parte 3 */
+
+/* Principio parte 4 */
+
+#contenido-segundario{
+    background-color: rgb(0, 247, 255);
+    display: flex;
+}
+
+#contenido-segundario .wrapper{
+    padding: 0;
+    overflow: hidden;
+}
+
+.parte1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    width: max-content;
+    line-height: 8px;
+}
+.parte2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    font-style: italic;
+    width: max-content;
+}
+
+.button2{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 35vh;
+}
+
+.button2 .boton-rojo2{
+    background-color: #c10000;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 12px 0;
+}
+
+/* Final parte 4 */
+
+#contenido-tercero{
+    background-color: white;
+}
+
+#contenido-tercero .wrapper{
+    padding: 0;
+    overflow: hidden;
+}
+
+#contenido-tercero .wrapper div{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+.background1{
+    background-color: rgb(60, 179, 184);
+}
+
+.background1 p{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    text-align: center;
+    width: 100vh;
+} 
+
+.background2{
+    background-color: white;
+}
+
+.background2 div{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.caja1 h5{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.caja1 p{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:25vh;
+    line-height: 20px;
 }
