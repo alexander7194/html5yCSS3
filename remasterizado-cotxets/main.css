@@ -193,6 +193,7 @@ p.enlace-correo{
 
 /* Final parte 4 */
 
+/* Principio parte 5 */
 #contenido-tercero{
     background-color: white;
 }
@@ -244,4 +245,106 @@ p.enlace-correo{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width:25vh;
     line-height: 20px;
+}
+
+/* Final parte 5 */
+
+/* Principio parte 6 */
+
+#contenido-cuarto{
+    background-color: rgb(224, 224, 224);
+    padding-bottom: 20px;
+}
+
+#contenido-cuarto .wrapper{
+    padding: 0;
+    overflow: hidden;
+}
+
+#contenido-cuarto .wrapper h3{
+    text-align: center;
+    font-size: 3vh ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fila1-coches p{
+    text-align: center;
+    background-color: grey;
+    margin: 0;
+}
+
+.fila2-coches p{
+    text-align: center;
+    background-color: grey;
+    margin: 0;
+}
+
+.fila1-coches{ 
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+}
+
+.fila2-coches{ 
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+}
+
+.fila1-coches img{
+    padding: 0;
+    width: 26vh;
+}
+
+.fila2-coches img{
+    padding: 0;
+    width: 26vh;
+}
+
+/* Final parte 6  */
+
+/* Principio parte 7 */
+
+#contenido-quinto{
+    background-color: white;
+}
+
+#contenido-quinto .wrapper{
+    padding: 0;
+    overflow: hidden;
+}
+div .h3{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin-bottom: 10px;
+}
+
+form.alguna-duda div{
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+#nombre{
+    box-sizing: content-box;
+    padding: 10px 0px 10px 0px;
+    width: 454px;
+}
+
+#asunto{
+    box-sizing: content-box;
+    padding: 10px 0px 10px 0px;
+    width: 454px;
+}
+
+#opinion{
+    box-sizing: content-box;
+    height: 100px;
+    width: 454px;
+}
+
+.button3{
+    display: flex;
+    justify-content: end;
+    margin-right: 55px;   
 }
